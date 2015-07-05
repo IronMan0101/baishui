@@ -105,6 +105,12 @@
 		751707C81B4620F6007F1AE2 /* ShenHua */ = {
 			isa = PBXGroup;
 			children = (
+				75ACC1E51B48EB5C001776AD /* AppDefine */,
+				75ACC1E41B48E83D001776AD /* Util */,
+				75ACC1E31B48E7A3001776AD /* Database */,
+				75ACC1E21B48E73E001776AD /* Network */,
+				75ACC1E11B48E6AC001776AD /* Category */,
+				75ACC1E01B48E666001776AD /* Model */,
 				751707CD1B4620F6007F1AE2 /* AppDelegate.h */,
 				751707CE1B4620F6007F1AE2 /* AppDelegate.m */,
 				751707D01B4620F6007F1AE2 /* ViewController.h */,
@@ -141,6 +147,48 @@
 				751707E41B4620F6007F1AE2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75ACC1E01B48E666001776AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		75ACC1E11B48E6AC001776AD /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		75ACC1E21B48E73E001776AD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		75ACC1E31B48E7A3001776AD /* Database */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		75ACC1E41B48E83D001776AD /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		75ACC1E51B48EB5C001776AD /* AppDefine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppDefine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
