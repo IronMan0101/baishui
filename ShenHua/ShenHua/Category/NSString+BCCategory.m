@@ -11,166 +11,136 @@
 @implementation NSString (BCCategory)
 
 
-
-#define JavaNotFound -1
-
-
-/**
- * Java-like method. Compares two strings lexicographically.
- * the value 0 if the argument string is equal to this string;
- * a value less than 0 if this string is lexicographically less than the string argument;
- * and a value greater than 0 if this string is lexicographically greater than the string argument.
- */
-- (int) compareTo:(NSString*) anotherString
+//获取指定单个字符
+- (unichar) bc_charAt:(NSInteger)index
 {
-    return [self compare:anotherString];
+    return [self characterAtIndex:index];
 }
-
-/** Java-like method. Compares two strings lexicographically, ignoring case differences. */
-- (int) compareToIgnoreCase:(NSString*) str {
-    return [self compare:str options:NSCaseInsensitiveSearch];
+//是某个字符串为开始
+- (BOOL) bc_startsWith:(NSString*)prefix
+{
+    return [self hasPrefix:prefix];
 }
-
-/** Java-like method. Returns true if and only if this string contains the specified sequence of char values. */
-- (BOOL) contains:(NSString*) str {
+//是某个字符串为结束
+- (BOOL) bc_endsWith:(NSString*)suffix
+{
+    return [self hasSuffix:suffix];
+}
+//字符串是否相等
+- (BOOL) bc_equals:(NSString*) anotherString
+{
+    return [self isEqualToString:anotherString];
+}
+//字符串是否相等忽略大小写
+- (BOOL) bc_equalsIgnoreCase:(NSString*) anotherString
+{
+    return [[self bc_toLowerCase] bc_equals:[anotherString bc_toLowerCase]];
+}
+//是否包含某一个字符串
+- (BOOL)bc_contains:(NSString*) str
+{
     NSRange range = [self rangeOfString:str];
     return (range.location != NSNotFound);
 }
-
-
-
-- (BOOL) equals:(NSString*) anotherString {
-    return [self isEqualToString:anotherString];
-}
-
-- (BOOL) equalsIgnoreCase:(NSString*) anotherString {
-    return [[self toLowerCase] equals:[anotherString toLowerCase]];
-}
-
-- (int) indexOfChar:(unichar)ch{
-    return [self indexOfChar:ch fromIndex:0];
-}
-
-- (int) indexOfChar:(unichar)ch fromIndex:(int)index
+//转化小写字母
+- (NSString *) bc_toLowerCase
 {
-    NSInteger len = self.length;
-    for (int i = index; i < len; ++i) {
-        if (ch == [self charAt:i]) {
-            return i;
-        }
-    }
-    return JavaNotFound;
+    return [self lowercaseString];
 }
-
-- (int) indexOfString:(NSString*)str {
-    NSRange range = [self rangeOfString:str];
-    if (range.location == NSNotFound) {
-        return JavaNotFound;
-    }
-    return range.location;
-}
-
-- (int) indexOfString:(NSString*)str fromIndex:(int)index {
-    NSRange fromRange = NSMakeRange(index, self.length - index);
-    NSRange range = [self rangeOfString:str options:NSLiteralSearch range:fromRange];
-    if (range.location == NSNotFound) {
-        return JavaNotFound;
-    }
-    return range.location;
-}
-
-- (int) lastIndexOfChar:(unichar)ch {
-    int len = self.length;
-    for (int i = len-1; i >=0; --i) {
-        if ([self charAt:i] == ch) {
-            return i;
-        }
-    }
-    return JavaNotFound;
-}
-
-- (int) lastIndexOfChar:(unichar)ch fromIndex:(int)index
+//转化大写字母
+- (NSString *)bc_toUpperCase
 {
-    int len = self.length;
-    if (index >= len) {
-        index = len - 1;
-    }
-    for (int i = index; i >= 0; --i) {
-        if ([self charAt:i] == ch) {
-            return index;
-        }
-    }
-    return JavaNotFound;
+    return [self uppercaseString];
 }
-
-- (int) lastIndexOfString:(NSString*)str {
-    NSRange range = [self rangeOfString:str options:NSBackwardsSearch];
-    if (range.location == NSNotFound) {
-        return JavaNotFound;
-    }
-    return range.location;
+//去掉两端空格
+- (NSString *)bc_trim
+{
+    return [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
 }
-
-- (int) lastIndexOfString:(NSString*)str fromIndex:(int)index {
-    NSRange fromRange = NSMakeRange(0, index);
-    NSRange range = [self rangeOfString:str options:NSBackwardsSearch range:fromRange];
-    if (range.location == NSNotFound) {
-        return JavaNotFound;
-    }
-    return range.location;
+// 替换字符串
+- (NSString *)bc_replaceAll:(NSString*)origin with:(NSString*)replacement
+{
+    return [self stringByReplacingOccurrencesOfString:origin withString:replacement];
 }
-
-- (NSString *) substringFromIndex:(int)beginIndex toIndex:(int)endIndex {
-    if (endIndex <= beginIndex) {
+//拆分为数组
+- (NSArray *)bc_split:(NSString*)separator
+{
+    return [self componentsSeparatedByString:separator];
+}
+//截取字符串
+- (NSString *) bc_substringFromIndex:(NSInteger)beginIndex toIndex:(NSInteger)endIndex
+{
+    if (endIndex <= beginIndex)
+    {
         return @"";
     }
     NSRange range = NSMakeRange(beginIndex, endIndex - beginIndex);
     return [self substringWithRange:range];
 }
 
+//判断字符串是否为空
++ (BOOL)bc_isEmpty:(NSString *)string
+{
+    
+    if (string == nil || string == NULL)
+    {
+        return YES;
+    }
+    
+    if ([string isKindOfClass:[NSNull class]])
+    {
+        return YES;
+    }
+    
+    if ([[string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]] length]==0)
+    {
+        return YES;
+    }
+    
+    return NO;
+}
 
+//把nil转成“”
++(NSString *)bc_removeNil:(NSString*)content
+{
+    if([NSString bc_isEmpty:content])
+    {
+        return @"";
+    }
+    return content;
+}
+//右边补几位
+-(NSString *)bc_leftPad:(NSInteger)sum  withString:(NSString *)withString
+{
+    NSInteger leave= sum-  self.length;
+    NSString *str=@"";
+    
+    if (leave<=0)
+    {
+        return self;
+    }
+    
+    for (NSInteger i=0; i<leave; i++)
+    {
+        str=[str stringByAppendingString:withString];
+    }
+    
+    str=[str stringByAppendingString:self];
+    
+    return str;
+}
+//左边用空格补齐
+-(NSString *)bc_leftPadWithEmtpy:(NSInteger)sum
+{
+    return [self bc_leftPad:sum withString:@" "];
+}
 
+//左边用0补齐
+-(NSString *)bc_leftPadWithZero:(NSInteger)sum
+{
+    return [self bc_leftPad:sum withString:@"0"];
+}
 
-//获取指定单个字符
-- (unichar) charAt:(NSInteger)index
-{
-    return [self characterAtIndex:index];
-}
-//是某个字符串为开始
-- (BOOL) startsWith:(NSString*)prefix
-{
-    return [self hasPrefix:prefix];
-}
-//是某个字符串为结束
-- (BOOL) endsWith:(NSString*)suffix
-{
-    return [self hasSuffix:suffix];
-}
-//转化小写字母
-- (NSString *) toLowerCase
-{
-    return [self lowercaseString];
-}
-//转化大写字母
-- (NSString *) toUpperCase
-{
-    return [self uppercaseString];
-}
-//去掉两端空格
-- (NSString *)trim
-{
-    return [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
-}
-// 替换字符串
-- (NSString *) replaceAll:(NSString*)origin with:(NSString*)replacement
-{
-    return [self stringByReplacingOccurrencesOfString:origin withString:replacement];
-}
-//拆分为数组
-- (NSArray *)split:(NSString*)separator
-{
-    return [self componentsSeparatedByString:separator];
-}
 
 
 @end
