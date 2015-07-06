@@ -14,6 +14,16 @@
 		751707D71B4620F6007F1AE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751707D61B4620F6007F1AE2 /* Images.xcassets */; };
 		751707DA1B4620F6007F1AE2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 751707D81B4620F6007F1AE2 /* LaunchScreen.xib */; };
 		751707E61B4620F6007F1AE2 /* ShenHuaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 751707E51B4620F6007F1AE2 /* ShenHuaTests.m */; };
+		75EC99161B492DD700A5388A /* NSObject+BCCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EC99151B492DD700A5388A /* NSObject+BCCategory.m */; };
+		75EC99191B492DF000A5388A /* UIView+BCCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EC99181B492DF000A5388A /* UIView+BCCategory.m */; };
+		75EC991C1B492E0D00A5388A /* UIColor+BCCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EC991B1B492E0D00A5388A /* UIColor+BCCategory.m */; };
+		75EC991F1B492E1E00A5388A /* NSData+BCCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EC991E1B492E1E00A5388A /* NSData+BCCategory.m */; };
+		75EC99221B492E3000A5388A /* NSString+BCCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EC99211B492E3000A5388A /* NSString+BCCategory.m */; };
+		75EC99251B492EA600A5388A /* UILabel+BCCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EC99241B492EA600A5388A /* UILabel+BCCategory.m */; };
+		75EC99281B492ECB00A5388A /* UITextField+BCCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EC99271B492ECB00A5388A /* UITextField+BCCategory.m */; };
+		75EC992B1B492EF400A5388A /* UIImageView+BCCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EC992A1B492EF400A5388A /* UIImageView+BCCategory.m */; };
+		75EC992E1B492F2800A5388A /* UIButton+BCCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EC992D1B492F2800A5388A /* UIButton+BCCategory.m */; };
+		75EC99311B492F7700A5388A /* UIViewController+BCCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EC99301B492F7700A5388A /* UIViewController+BCCategory.m */; };
 		B57E5921C7DEA14F505A3FDF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 022C79FE5A370031290B2049 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +52,28 @@
 		751707DF1B4620F6007F1AE2 /* ShenHuaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShenHuaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		751707E41B4620F6007F1AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		751707E51B4620F6007F1AE2 /* ShenHuaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShenHuaTests.m; sourceTree = "<group>"; };
+		75EC99121B49296200A5388A /* BCCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCCategory.h; sourceTree = "<group>"; };
+		75EC99131B492A0700A5388A /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		75EC99141B492DD700A5388A /* NSObject+BCCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BCCategory.h"; sourceTree = "<group>"; };
+		75EC99151B492DD700A5388A /* NSObject+BCCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BCCategory.m"; sourceTree = "<group>"; };
+		75EC99171B492DF000A5388A /* UIView+BCCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BCCategory.h"; sourceTree = "<group>"; };
+		75EC99181B492DF000A5388A /* UIView+BCCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BCCategory.m"; sourceTree = "<group>"; };
+		75EC991A1B492E0D00A5388A /* UIColor+BCCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BCCategory.h"; sourceTree = "<group>"; };
+		75EC991B1B492E0D00A5388A /* UIColor+BCCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BCCategory.m"; sourceTree = "<group>"; };
+		75EC991D1B492E1E00A5388A /* NSData+BCCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+BCCategory.h"; sourceTree = "<group>"; };
+		75EC991E1B492E1E00A5388A /* NSData+BCCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+BCCategory.m"; sourceTree = "<group>"; };
+		75EC99201B492E3000A5388A /* NSString+BCCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BCCategory.h"; sourceTree = "<group>"; };
+		75EC99211B492E3000A5388A /* NSString+BCCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BCCategory.m"; sourceTree = "<group>"; };
+		75EC99231B492EA600A5388A /* UILabel+BCCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+BCCategory.h"; sourceTree = "<group>"; };
+		75EC99241B492EA600A5388A /* UILabel+BCCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+BCCategory.m"; sourceTree = "<group>"; };
+		75EC99261B492ECB00A5388A /* UITextField+BCCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+BCCategory.h"; sourceTree = "<group>"; };
+		75EC99271B492ECB00A5388A /* UITextField+BCCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+BCCategory.m"; sourceTree = "<group>"; };
+		75EC99291B492EF400A5388A /* UIImageView+BCCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+BCCategory.h"; sourceTree = "<group>"; };
+		75EC992A1B492EF400A5388A /* UIImageView+BCCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+BCCategory.m"; sourceTree = "<group>"; };
+		75EC992C1B492F2800A5388A /* UIButton+BCCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+BCCategory.h"; sourceTree = "<group>"; };
+		75EC992D1B492F2800A5388A /* UIButton+BCCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BCCategory.m"; sourceTree = "<group>"; };
+		75EC992F1B492F7700A5388A /* UIViewController+BCCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BCCategory.h"; sourceTree = "<group>"; };
+		75EC99301B492F7700A5388A /* UIViewController+BCCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BCCategory.m"; sourceTree = "<group>"; };
 		FF2375C13402A36ACF555359 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FF40F2B762C94D1AB987DB7B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,6 +137,7 @@
 		751707C81B4620F6007F1AE2 /* ShenHua */ = {
 			isa = PBXGroup;
 			children = (
+				75EC99321B4931AD00A5388A /* Controller */,
 				75ACC1E51B48EB5C001776AD /* AppDefine */,
 				75ACC1E41B48E83D001776AD /* Util */,
 				75ACC1E31B48E7A3001776AD /* Database */,
@@ -159,6 +192,27 @@
 		75ACC1E11B48E6AC001776AD /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				75EC99121B49296200A5388A /* BCCategory.h */,
+				75EC99141B492DD700A5388A /* NSObject+BCCategory.h */,
+				75EC99151B492DD700A5388A /* NSObject+BCCategory.m */,
+				75EC99171B492DF000A5388A /* UIView+BCCategory.h */,
+				75EC99181B492DF000A5388A /* UIView+BCCategory.m */,
+				75EC991A1B492E0D00A5388A /* UIColor+BCCategory.h */,
+				75EC991B1B492E0D00A5388A /* UIColor+BCCategory.m */,
+				75EC991D1B492E1E00A5388A /* NSData+BCCategory.h */,
+				75EC991E1B492E1E00A5388A /* NSData+BCCategory.m */,
+				75EC99201B492E3000A5388A /* NSString+BCCategory.h */,
+				75EC99211B492E3000A5388A /* NSString+BCCategory.m */,
+				75EC99231B492EA600A5388A /* UILabel+BCCategory.h */,
+				75EC99241B492EA600A5388A /* UILabel+BCCategory.m */,
+				75EC99261B492ECB00A5388A /* UITextField+BCCategory.h */,
+				75EC99271B492ECB00A5388A /* UITextField+BCCategory.m */,
+				75EC99291B492EF400A5388A /* UIImageView+BCCategory.h */,
+				75EC992A1B492EF400A5388A /* UIImageView+BCCategory.m */,
+				75EC992C1B492F2800A5388A /* UIButton+BCCategory.h */,
+				75EC992D1B492F2800A5388A /* UIButton+BCCategory.m */,
+				75EC992F1B492F7700A5388A /* UIViewController+BCCategory.h */,
+				75EC99301B492F7700A5388A /* UIViewController+BCCategory.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -187,8 +241,16 @@
 		75ACC1E51B48EB5C001776AD /* AppDefine */ = {
 			isa = PBXGroup;
 			children = (
+				75EC99131B492A0700A5388A /* Macros.h */,
 			);
 			path = AppDefine;
+			sourceTree = "<group>";
+		};
+		75EC99321B4931AD00A5388A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,8 +388,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75EC992B1B492EF400A5388A /* UIImageView+BCCategory.m in Sources */,
 				751707D21B4620F6007F1AE2 /* ViewController.m in Sources */,
+				75EC99191B492DF000A5388A /* UIView+BCCategory.m in Sources */,
 				751707CF1B4620F6007F1AE2 /* AppDelegate.m in Sources */,
+				75EC99161B492DD700A5388A /* NSObject+BCCategory.m in Sources */,
+				75EC99281B492ECB00A5388A /* UITextField+BCCategory.m in Sources */,
+				75EC991F1B492E1E00A5388A /* NSData+BCCategory.m in Sources */,
+				75EC99251B492EA600A5388A /* UILabel+BCCategory.m in Sources */,
+				75EC992E1B492F2800A5388A /* UIButton+BCCategory.m in Sources */,
+				75EC991C1B492E0D00A5388A /* UIColor+BCCategory.m in Sources */,
+				75EC99311B492F7700A5388A /* UIViewController+BCCategory.m in Sources */,
+				75EC99221B492E3000A5388A /* NSString+BCCategory.m in Sources */,
 				751707CC1B4620F6007F1AE2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
