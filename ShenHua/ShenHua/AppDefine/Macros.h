@@ -18,7 +18,7 @@
 #define PATH_OF_DOCUMENT    [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0]
 
 //ui全局定义
-#define UI_NAVIGATIONBAR_HEIGHT    44                                         //UINavgationbar高度
+#define UI_NAVBAR_HEIGHT           44                                         //UINavgationbar高度
 #define UI_TABBAR_HEIGHT           49                                         //tabbar高度
 #define UI_STATUS_BAR_HEIGHT       20                                         //状态栏高度
 #define UI_SCREEN_WIDTH            [UIScreen mainScreen].bounds.size.width    //屏幕宽度
