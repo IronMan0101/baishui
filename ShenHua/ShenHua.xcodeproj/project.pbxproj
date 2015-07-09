@@ -11,6 +11,8 @@
 		751707CF1B4620F6007F1AE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 751707CE1B4620F6007F1AE2 /* AppDelegate.m */; };
 		751707D71B4620F6007F1AE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751707D61B4620F6007F1AE2 /* Images.xcassets */; };
 		751707E61B4620F6007F1AE2 /* ShenHuaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 751707E51B4620F6007F1AE2 /* ShenHuaTests.m */; };
+		75D9A88C1B4E6C4500C4CB34 /* CacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D9A88B1B4E6C4500C4CB34 /* CacheManager.m */; };
+		75D9A88F1B4E70C600C4CB34 /* SDCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D9A88E1B4E70C600C4CB34 /* SDCache.m */; };
 		75DCFBEE1B4C11AC00CAA349 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DCFBED1B4C11AC00CAA349 /* BaseViewController.m */; };
 		75DCFBF11B4C11CC00CAA349 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DCFBF01B4C11CC00CAA349 /* BaseNavigationController.m */; };
 		75DCFBF41B4C11DF00CAA349 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DCFBF31B4C11DF00CAA349 /* BaseTabBarController.m */; };
@@ -61,6 +63,11 @@
 		751707DF1B4620F6007F1AE2 /* ShenHuaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShenHuaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		751707E41B4620F6007F1AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		751707E51B4620F6007F1AE2 /* ShenHuaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShenHuaTests.m; sourceTree = "<group>"; };
+		75D9A88A1B4E6C4500C4CB34 /* CacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheManager.h; sourceTree = "<group>"; };
+		75D9A88B1B4E6C4500C4CB34 /* CacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheManager.m; sourceTree = "<group>"; };
+		75D9A88D1B4E70C600C4CB34 /* SDCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCache.h; sourceTree = "<group>"; };
+		75D9A88E1B4E70C600C4CB34 /* SDCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCache.m; sourceTree = "<group>"; };
+		75D9A8901B4E966900C4CB34 /* ShenHua-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShenHua-Prefix.pch"; sourceTree = "<group>"; };
 		75DCFBEC1B4C11AC00CAA349 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		75DCFBED1B4C11AC00CAA349 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		75DCFBEF1B4C11CC00CAA349 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
@@ -192,6 +199,7 @@
 		751707C91B4620F6007F1AE2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				75D9A8901B4E966900C4CB34 /* ShenHua-Prefix.pch */,
 				751707CA1B4620F6007F1AE2 /* Info.plist */,
 				751707CB1B4620F6007F1AE2 /* main.m */,
 			);
@@ -260,6 +268,10 @@
 		75ACC1E31B48E7A3001776AD /* Database */ = {
 			isa = PBXGroup;
 			children = (
+				75D9A88A1B4E6C4500C4CB34 /* CacheManager.h */,
+				75D9A88B1B4E6C4500C4CB34 /* CacheManager.m */,
+				75D9A88D1B4E70C600C4CB34 /* SDCache.h */,
+				75D9A88E1B4E70C600C4CB34 /* SDCache.m */,
 			);
 			path = Database;
 			sourceTree = "<group>";
@@ -531,10 +543,12 @@
 				75DCFC0D1B4C145900CAA349 /* FourVC.m in Sources */,
 				75EC99281B492ECB00A5388A /* UITextField+BCCategory.m in Sources */,
 				75DCFC031B4C137300CAA349 /* TwoVC.m in Sources */,
+				75D9A88C1B4E6C4500C4CB34 /* CacheManager.m in Sources */,
 				75EC991F1B492E1E00A5388A /* NSData+BCCategory.m in Sources */,
 				75DCFC081B4C13CC00CAA349 /* ThreeVC.m in Sources */,
 				75EC99251B492EA600A5388A /* UILabel+BCCategory.m in Sources */,
 				75EC992E1B492F2800A5388A /* UIButton+BCCategory.m in Sources */,
+				75D9A88F1B4E70C600C4CB34 /* SDCache.m in Sources */,
 				75EC991C1B492E0D00A5388A /* UIColor+BCCategory.m in Sources */,
 				75EC99311B492F7700A5388A /* UIViewController+BCCategory.m in Sources */,
 				75EC99221B492E3000A5388A /* NSString+BCCategory.m in Sources */,
@@ -647,6 +661,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ShenHua/ShenHua-Prefix.pch";
 				INFOPLIST_FILE = ShenHua/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -661,6 +677,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ShenHua/ShenHua-Prefix.pch";
 				INFOPLIST_FILE = ShenHua/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

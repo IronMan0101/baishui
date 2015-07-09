@@ -7,6 +7,7 @@
 //
 
 #import "OneVC.h"
+#import "CacheManager.h"
 
 @interface OneVC ()
 
@@ -35,6 +36,10 @@
          [self.list addObject:@"支付宝"];
     }
     
+    
+    NSString *str= [[CacheManager sharedManager] formatCacheSize];
+    DLog(@"%@",str);
+    DLog(@"");
     //
     //    UITableView * tableView=[[UITableView alloc]initWithFrame:CGRectMake(0, UI_NAVBAR_HEIGHT, UI_SCREEN_WIDTH, UI_SCREEN_HEIGHT-UI_TABBAR_HEIGHT-UI_NAVBAR_HEIGHT)];
     
