@@ -10,7 +10,6 @@
 		751707CC1B4620F6007F1AE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 751707CB1B4620F6007F1AE2 /* main.m */; };
 		751707CF1B4620F6007F1AE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 751707CE1B4620F6007F1AE2 /* AppDelegate.m */; };
 		751707D71B4620F6007F1AE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751707D61B4620F6007F1AE2 /* Images.xcassets */; };
-		751707DA1B4620F6007F1AE2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 751707D81B4620F6007F1AE2 /* LaunchScreen.xib */; };
 		751707E61B4620F6007F1AE2 /* ShenHuaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 751707E51B4620F6007F1AE2 /* ShenHuaTests.m */; };
 		75DCFBEE1B4C11AC00CAA349 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DCFBED1B4C11AC00CAA349 /* BaseViewController.m */; };
 		75DCFBF11B4C11CC00CAA349 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DCFBF01B4C11CC00CAA349 /* BaseNavigationController.m */; };
@@ -25,8 +24,6 @@
 		75DCFC0E1B4C145900CAA349 /* FourVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75DCFC0C1B4C145900CAA349 /* FourVC.xib */; };
 		75DCFC121B4C14DD00CAA349 /* FiveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DCFC101B4C14DD00CAA349 /* FiveVC.m */; };
 		75DCFC131B4C14DD00CAA349 /* FiveVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75DCFC111B4C14DD00CAA349 /* FiveVC.xib */; };
-		75DCFC1D1B4CB37D00CAA349 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75DCFC1A1B4CB37D00CAA349 /* Main.storyboard */; };
-		75DCFC1E1B4CB37D00CAA349 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DCFC1C1B4CB37D00CAA349 /* ViewController.m */; };
 		75DCFC231B4D1EBC00CAA349 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DCFC211B4D1EBC00CAA349 /* TestViewController.m */; };
 		75DCFC241B4D1EBC00CAA349 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75DCFC221B4D1EBC00CAA349 /* TestViewController.xib */; };
 		75DCFC291B4D740D00CAA349 /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DCFC281B4D740D00CAA349 /* Config.m */; };
@@ -61,7 +58,6 @@
 		751707CD1B4620F6007F1AE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		751707CE1B4620F6007F1AE2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		751707D61B4620F6007F1AE2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		751707D91B4620F6007F1AE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		751707DF1B4620F6007F1AE2 /* ShenHuaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShenHuaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		751707E41B4620F6007F1AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		751707E51B4620F6007F1AE2 /* ShenHuaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShenHuaTests.m; sourceTree = "<group>"; };
@@ -86,9 +82,6 @@
 		75DCFC0F1B4C14DD00CAA349 /* FiveVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveVC.h; sourceTree = "<group>"; };
 		75DCFC101B4C14DD00CAA349 /* FiveVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveVC.m; sourceTree = "<group>"; };
 		75DCFC111B4C14DD00CAA349 /* FiveVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FiveVC.xib; sourceTree = "<group>"; };
-		75DCFC1A1B4CB37D00CAA349 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		75DCFC1B1B4CB37D00CAA349 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		75DCFC1C1B4CB37D00CAA349 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		75DCFC201B4D1EBC00CAA349 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		75DCFC211B4D1EBC00CAA349 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		75DCFC221B4D1EBC00CAA349 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
@@ -302,10 +295,6 @@
 		75DCFBF51B4C121200CAA349 /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				75DCFC1A1B4CB37D00CAA349 /* Main.storyboard */,
-				75DCFC1B1B4CB37D00CAA349 /* ViewController.h */,
-				75DCFC1C1B4CB37D00CAA349 /* ViewController.m */,
-				751707D81B4620F6007F1AE2 /* LaunchScreen.xib */,
 				751707CD1B4620F6007F1AE2 /* AppDelegate.h */,
 				751707CE1B4620F6007F1AE2 /* AppDelegate.m */,
 			);
@@ -478,10 +467,8 @@
 				75DCFC041B4C137300CAA349 /* TwoVC.xib in Resources */,
 				75DCFC0E1B4C145900CAA349 /* FourVC.xib in Resources */,
 				75DCFBFF1B4C130D00CAA349 /* OneVC.xib in Resources */,
-				751707DA1B4620F6007F1AE2 /* LaunchScreen.xib in Resources */,
 				75DCFC241B4D1EBC00CAA349 /* TestViewController.xib in Resources */,
 				751707D71B4620F6007F1AE2 /* Images.xcassets in Resources */,
-				75DCFC1D1B4CB37D00CAA349 /* Main.storyboard in Resources */,
 				75DCFC131B4C14DD00CAA349 /* FiveVC.xib in Resources */,
 				75DCFC091B4C13CC00CAA349 /* ThreeVC.xib in Resources */,
 			);
@@ -550,7 +537,6 @@
 				75EC992E1B492F2800A5388A /* UIButton+BCCategory.m in Sources */,
 				75EC991C1B492E0D00A5388A /* UIColor+BCCategory.m in Sources */,
 				75EC99311B492F7700A5388A /* UIViewController+BCCategory.m in Sources */,
-				75DCFC1E1B4CB37D00CAA349 /* ViewController.m in Sources */,
 				75EC99221B492E3000A5388A /* NSString+BCCategory.m in Sources */,
 				75DCFC231B4D1EBC00CAA349 /* TestViewController.m in Sources */,
 				75DCFC121B4C14DD00CAA349 /* FiveVC.m in Sources */,
@@ -577,17 +563,6 @@
 			targetProxy = 751707E01B4620F6007F1AE2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		751707D81B4620F6007F1AE2 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				751707D91B4620F6007F1AE2 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		751707E71B4620F6007F1AE2 /* Debug */ = {

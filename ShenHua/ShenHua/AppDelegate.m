@@ -30,15 +30,16 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
     
     
     // self.window.rootViewController = [self creatTestController];
     self.window.rootViewController = [self creatMainController];
-    self.window.backgroundColor=[UIColor whiteColor];
+    
+    
+
     [self.window makeKeyAndVisible];
-    
-    
-    
     return YES;
 }
 
@@ -109,7 +110,7 @@
     {
         [[UITabBar appearance] setShadowImage:[[UIImage alloc] init]];
     }
-  //  [[UITabBar appearance] setBackgroundImage:[UIImage imageNamed:tabBg]];
+    [[UITabBar appearance] setBackgroundImage:[UIImage imageNamed:tabBg]];
     
 
     BaseTabBarController  *mainVC=[[BaseTabBarController alloc] init];
