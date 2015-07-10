@@ -8,6 +8,9 @@
 
 #import "BaseViewController.h"
 
-@interface FiveVC : BaseViewController
+@interface FiveVC : BaseViewController<UITableViewDelegate,UITableViewDataSource>
+
+
+@property(nonatomic,copy) NSMutableArray  * context;;
 
 @end

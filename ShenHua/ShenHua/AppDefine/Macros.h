@@ -33,6 +33,7 @@
 #define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending)
 
 
+#define BASEVIEWCOLOR RGB(248,248,248)                                        //所有继承view的基础颜色
 
 
 

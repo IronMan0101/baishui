@@ -7,6 +7,7 @@
 //
 
 #import "BaseViewController.h"
+#import "Macros.h"
 
 @interface BaseViewController ()
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor=BASEVIEWCOLOR;
 }
 
 - (void)didReceiveMemoryWarning {

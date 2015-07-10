@@ -11,6 +11,7 @@
 		751707CF1B4620F6007F1AE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 751707CE1B4620F6007F1AE2 /* AppDelegate.m */; };
 		751707D71B4620F6007F1AE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751707D61B4620F6007F1AE2 /* Images.xcassets */; };
 		751707E61B4620F6007F1AE2 /* ShenHuaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 751707E51B4620F6007F1AE2 /* ShenHuaTests.m */; };
+		7578B1261B4F6B8600CAFC40 /* CellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7578B1251B4F6B8600CAFC40 /* CellModel.m */; };
 		75D9A88C1B4E6C4500C4CB34 /* CacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D9A88B1B4E6C4500C4CB34 /* CacheManager.m */; };
 		75D9A88F1B4E70C600C4CB34 /* SDCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D9A88E1B4E70C600C4CB34 /* SDCache.m */; };
 		75DCFBEE1B4C11AC00CAA349 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DCFBED1B4C11AC00CAA349 /* BaseViewController.m */; };
@@ -63,6 +64,8 @@
 		751707DF1B4620F6007F1AE2 /* ShenHuaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShenHuaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		751707E41B4620F6007F1AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		751707E51B4620F6007F1AE2 /* ShenHuaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShenHuaTests.m; sourceTree = "<group>"; };
+		7578B1241B4F6B8600CAFC40 /* CellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellModel.h; sourceTree = "<group>"; };
+		7578B1251B4F6B8600CAFC40 /* CellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellModel.m; sourceTree = "<group>"; };
 		75D9A88A1B4E6C4500C4CB34 /* CacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheManager.h; sourceTree = "<group>"; };
 		75D9A88B1B4E6C4500C4CB34 /* CacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheManager.m; sourceTree = "<group>"; };
 		75D9A88D1B4E70C600C4CB34 /* SDCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCache.h; sourceTree = "<group>"; };
@@ -300,6 +303,8 @@
 				75DCFBF01B4C11CC00CAA349 /* BaseNavigationController.m */,
 				75DCFBF21B4C11DF00CAA349 /* BaseTabBarController.h */,
 				75DCFBF31B4C11DF00CAA349 /* BaseTabBarController.m */,
+				7578B1241B4F6B8600CAFC40 /* CellModel.h */,
+				7578B1251B4F6B8600CAFC40 /* CellModel.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -551,6 +556,7 @@
 				75D9A88F1B4E70C600C4CB34 /* SDCache.m in Sources */,
 				75EC991C1B492E0D00A5388A /* UIColor+BCCategory.m in Sources */,
 				75EC99311B492F7700A5388A /* UIViewController+BCCategory.m in Sources */,
+				7578B1261B4F6B8600CAFC40 /* CellModel.m in Sources */,
 				75EC99221B492E3000A5388A /* NSString+BCCategory.m in Sources */,
 				75DCFC231B4D1EBC00CAA349 /* TestViewController.m in Sources */,
 				75DCFC121B4C14DD00CAA349 /* FiveVC.m in Sources */,

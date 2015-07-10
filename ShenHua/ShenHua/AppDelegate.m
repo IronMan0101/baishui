@@ -35,7 +35,7 @@
     
     
     // self.window.rootViewController = [self creatTestController];
-    self.window.rootViewController = [self creatMainController];
+    self.window.rootViewController = [self creatMainController:4];
     
     
 
@@ -60,7 +60,7 @@
  *  @return <#return value description#>
  */
 
-- (UIViewController *)creatMainController
+- (UIViewController *)creatMainController:(NSInteger)tabClickIndex
 {
     OneVC   * oneVc= [[OneVC alloc]initWithNibName:@"OneVC" bundle:nil];
     TwoVC   * twoVc= [[TwoVC alloc]initWithNibName:@"TwoVC" bundle:nil];
@@ -78,7 +78,7 @@
                                                             @"tabbar_mine_h",@"tabbar_more_h",nil];//高亮背景
     UIColor * tabItemFontColor=RGB(54, 185,175);                                                   //字体颜色
     NSString *tabBg=@"tabbar_bg";                                                                  //tabar背景
-    NSInteger tabClickIndex=0;                                                                     //默认选中
+    //NSInteger tabClickIndex=4;                                                                     //默认选中
     
 
     
