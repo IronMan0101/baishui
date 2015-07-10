@@ -30,4 +30,10 @@
 - (NSString *) bc_leftPadWithEmtpy:(NSInteger)sum;                            //左边用空格补齐
 - (NSString *) bc_leftPadWithZero:(NSInteger)sum;                             //左边用0补齐
 
+
+
+- (NSString *) bc_md5;                                                        //生成md5
+- (NSString *)encodeURLString;                                                //url编码
+- (NSString *)decodeURLString;                                                //url解码
+
 @end

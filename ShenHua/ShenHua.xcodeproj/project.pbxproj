@@ -11,6 +11,7 @@
 		751707CF1B4620F6007F1AE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 751707CE1B4620F6007F1AE2 /* AppDelegate.m */; };
 		751707D71B4620F6007F1AE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751707D61B4620F6007F1AE2 /* Images.xcassets */; };
 		751707E61B4620F6007F1AE2 /* ShenHuaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 751707E51B4620F6007F1AE2 /* ShenHuaTests.m */; };
+		754C05BE1B50177600673EBF /* 我眼中的移动互联管理.md in Resources */ = {isa = PBXBuildFile; fileRef = 754C05BD1B50177600673EBF /* 我眼中的移动互联管理.md */; };
 		7578B1261B4F6B8600CAFC40 /* CellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7578B1251B4F6B8600CAFC40 /* CellModel.m */; };
 		7582FBB11B4FA1CD00A3766B /* UIImage+BCCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7582FBB01B4FA1CD00A3766B /* UIImage+BCCategory.m */; };
 		7582FBB41B4FCC0400A3766B /* 微信-发现.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7582FBB31B4FCC0400A3766B /* 微信-发现.jpg */; };
@@ -68,6 +69,7 @@
 		751707DF1B4620F6007F1AE2 /* ShenHuaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShenHuaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		751707E41B4620F6007F1AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		751707E51B4620F6007F1AE2 /* ShenHuaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShenHuaTests.m; sourceTree = "<group>"; };
+		754C05BD1B50177600673EBF /* 我眼中的移动互联管理.md */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = net.daringfireball.markdown; path = "我眼中的移动互联管理.md"; sourceTree = "<group>"; };
 		7578B1241B4F6B8600CAFC40 /* CellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellModel.h; sourceTree = "<group>"; };
 		7578B1251B4F6B8600CAFC40 /* CellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellModel.m; sourceTree = "<group>"; };
 		7582FBAF1B4FA1CD00A3766B /* UIImage+BCCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BCCategory.h"; sourceTree = "<group>"; };
@@ -247,6 +249,13 @@
 			path = weixin;
 			sourceTree = "<group>";
 		};
+		7582FBBA1B4FD4F500A3766B /* login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
 		75ACC1E01B48E666001776AD /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -395,6 +404,7 @@
 		75DCFC1F1B4D1EBC00CAA349 /* Know */ = {
 			isa = PBXGroup;
 			children = (
+				754C05BD1B50177600673EBF /* 我眼中的移动互联管理.md */,
 				75DCFC201B4D1EBC00CAA349 /* TestViewController.h */,
 				75DCFC211B4D1EBC00CAA349 /* TestViewController.m */,
 				75DCFC221B4D1EBC00CAA349 /* TestViewController.xib */,
@@ -414,6 +424,7 @@
 		75EC99321B4931AD00A5388A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				7582FBBA1B4FD4F500A3766B /* login */,
 				75DCFBF61B4C12DD00CAA349 /* five */,
 				75DCFBF71B4C12DD00CAA349 /* four */,
 				75DCFBF81B4C12DD00CAA349 /* one */,
@@ -513,6 +524,7 @@
 				7582FBB41B4FCC0400A3766B /* 微信-发现.jpg in Resources */,
 				75DCFC131B4C14DD00CAA349 /* FiveVC.xib in Resources */,
 				7582FBB91B4FCC5600A3766B /* WinXinFindVC.xib in Resources */,
+				754C05BE1B50177600673EBF /* 我眼中的移动互联管理.md in Resources */,
 				75DCFC091B4C13CC00CAA349 /* ThreeVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,6 +7,8 @@
 //
 
 #import "NSString+BCCategory.h"
+#import <CommonCrypto/CommonCryptor.h>
+#import <CommonCrypto/CommonDigest.h>
 
 @implementation NSString (BCCategory)
 
@@ -141,6 +143,59 @@
     return [self bc_leftPad:sum withString:@"0"];
 }
 
+/**
+ *  生成md5
+ */
+- (NSString *)bc_md5
+{
+    const char *cStr = [self UTF8String];
+    unsigned char result[16];
+    CC_MD5(cStr, (CC_LONG)(strlen(cStr)), result);
+    return [NSString stringWithFormat:
+            @"%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x",
+            result[0], result[1], result[2], result[3],
+            result[4], result[5], result[6], result[7],
+            result[8], result[9], result[10], result[11],
+            result[12], result[13], result[14], result[15]
+            ];
+}
+
+/**
+ *  url 编码
+ *  IOS中对Url进行编码和解码
+ *  http://blog.csdn.net/tianyitianyi1/article/details/17579997
+ */
+- (NSString *)encodeURLString
+{
+    NSString* outputStr = (__bridge NSString *)CFURLCreateStringByAddingPercentEscapes(
+                                                                             
+                                                                             NULL, /* allocator */
+                                                                             
+                                                                             (__bridge CFStringRef)self,
+                                                                             
+                                                                             NULL, /* charactersToLeaveUnescaped */
+                                                                             
+                                                                             (CFStringRef)@"!*'();:@&=+$,/?%#[]",
+                                                                             
+                                                                             kCFStringEncodingUTF8);
+    
+    
+    return outputStr;
+}
+/**
+ *  url解码
+ */
+- (NSString *)decodeURLString
+{
+    NSMutableString *outputStr = [NSMutableString stringWithString:self];
+    
+    [outputStr replaceOccurrencesOfString:@"+"
+                               withString:@" "
+                                  options:NSLiteralSearch
+                                    range:NSMakeRange(0,[outputStr length])];
+    
+    return [outputStr stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+}
 
 
 @end

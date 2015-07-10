@@ -58,8 +58,8 @@
    
    self.tableView =[[UITableView alloc]initWithFrame:CGRectMake(0, 0, UI_SCREEN_WIDTH, UI_SCREEN_HEIGHT) style:UITableViewStyleGrouped];
     //打印大小
-    [self.view bc_log:@"self.view"];
-    [self.tableView bc_log:@"self.tableview"];
+    //[self.view bc_log:@"self.view"];
+    //[self.tableView bc_log:@"self.tableview"];
     //设置好代理
     self.tableView.delegate=self;
     self.tableView.dataSource=self;
@@ -71,21 +71,36 @@
 }
 
 
-
+//设置几个section
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
 
     return  [self.context count];
 }
-
+//设置每个section几个row
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
 
     return  [[self.context objectAtIndex:section] count];
-    
+}
+//设置row高
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 44;
 }
 
+//默认间距
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    return 10;
+}
 
+- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
+{
+    return 10;
+}
+
+//cell显示
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
 
@@ -112,27 +127,17 @@
     cell.backgroundColor=[UIColor whiteColor];                       //背景默认白色
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;//灰色符号
 
-
-
     return cell;
-    
 }
 
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+
+//cell点击
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 44;
+    //取消选中色
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
-//默认间距
-- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
-{
-    return 10;
-}
-
-- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
-{
-    return 10;
-}
 
 
 @end

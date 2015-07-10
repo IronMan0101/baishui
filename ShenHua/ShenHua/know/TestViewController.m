@@ -12,6 +12,7 @@
 //土哥哥的博客
 //http://tutuge.me/
 #import "TestViewController.h"
+#import "Category/BCCategory.h"
 
 @interface TestViewController ()
 
@@ -52,8 +53,11 @@
     simpleCopy=@"SimpleCopy";
     NSLog(@"strCopy:%@,deepCopy:%@",strCopy,deepCopy);
     
+    //self.view bc_log:<#(NSString *)#>
 }
 
+
+//SCLAlertView
 
 
 //2.xcode6 新特性
@@ -142,8 +146,38 @@
 
 
 /**
- *  
+ *  12.转义字理解
+ *
+/
+
+ /**
+ *   Objective-C 和 Core Foundation 对象之间进行转换时,就需要使用 Bridge cast,比如 Core Graphics 和 Core Text.CFObject和NSObject
+    12.1 __bridge               _bridge 只是负责两者形式的转换，不涉及内存权限的转移
+    12.2 __bridge_transfer      给予arc授权  strCFString不用释放
+                                CFStringRef strCFString = CFStringCreateWithCString(NULL, "test", kCFStringEncodingASCII);
+                                NSString *strNSString = (__bridge NSString *)strCFString;
+
+    12.3 __birdge_retained      CFRelease(stringRef);
+
+    12.4 __strong               在ARC下，默认的指针都是__strong属性
+    12.5 __weak                 __weak不增加引用。当释放指针指向的对象时，该对象的指针将转换为nil。iOS5.0以后出现。
+    12.6 __unsafe_unretain      尽管释放指针指向的对象时，该指针将继续指向原来的内存。这将会导致应用crash，所以是unsafe,ios5.0以前
+    12.7__autoreleasing        引用传参时使用
+    12.8__block                __block增加引用
+    父对象建立子对象的强引用，而子对象只对父对象建立弱引用
+
+ */
+//
+
+/**
+ *  13.oc 语法
  */
 
+//-(void)setName:(NSString *)newName {
+//    if (name != newName) {
+//        [name release];
+//        name = [newName retain];
+//    }
+//}
 
 @end

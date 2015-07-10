@@ -124,7 +124,7 @@
     BaseTabBarController  *mainVC=[[BaseTabBarController alloc] init];
     [mainVC setViewControllers:[mutableNavController copy]];
     [mainVC setSelectedIndex:tabClickIndex];
-    
+    mainVC.delegate=self;;
     
     
 
@@ -153,6 +153,19 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+
+
+#pragma mark - UITabBarControllerDelegate 可用来判断是否登录了
+-(BOOL)tabBarController:(UITabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController
+{
+    if ([tabBarController.viewControllers indexOfObject:viewController] == 2)
+    {
+        DLog(@"弹出登录窗口");
+        return NO;
+    }
+    return YES;
 }
 
 @end
