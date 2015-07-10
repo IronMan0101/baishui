@@ -71,14 +71,17 @@
     NSArray *  viewControllers=[NSArray arrayWithObjects:oneVc, twoVc,threeVc,fourVc,fiveVc,nil];
     
 
-    NSArray *  tabItemTitle=[NSArray arrayWithObjects:@"团购", @"上门",@"商家",@"我的",@"更多",nil];   //标题
+    NSArray *  tabItemTitle=[NSArray arrayWithObjects:@"团购", @"上门",@"商家",@"我的",@"更多",nil];   //tabitem标题
     NSArray *  tabItemNormalBg=   [NSArray arrayWithObjects:@"tabbar_homepage_n", @"tabbar_merchant_n",@"tabbar_onsite_n",
-                                                            @"tabbar_mine_n",@"tabbar_more_n",nil];//普通背景
+                                                            @"tabbar_mine_n",@"tabbar_more_n",nil];//tabitem普通背景
     NSArray *  tabItemHighlightBg=[NSArray arrayWithObjects:@"tabbar_homepage_h", @"tabbar_merchant_h",@"tabbar_onsite_h",
-                                                            @"tabbar_mine_h",@"tabbar_more_h",nil];//高亮背景
-    UIColor * tabItemFontColor=RGB(54, 185,175);                                                   //字体颜色
-    NSString *tabBg=@"tabbar_bg";                                                                  //tabar背景
-    //NSInteger tabClickIndex=4;                                                                     //默认选中
+                                                            @"tabbar_mine_h",@"tabbar_more_h",nil];//tabitem高亮背景
+    UIColor * tabItemFontColor=RGB(54, 185,175);                                                   //tabitem字体颜色
+    NSString *tabBg=@"tabbar_bg";                                                                  //tabar背景图片
+    UIColor  *navBarBgColor=RGB(34, 192,173);                                                      //navbar背景颜色
+    UIColor  *navBarTitleColor=[UIColor whiteColor];                                               //navbartitle字体颜色
+    UIColor  *navBarTintColor=[UIColor whiteColor];                                                //navbar左右按钮颜色
+    
     
 
     
@@ -103,19 +106,28 @@
         [mutableNavController addObject:navController];
        
     }
-   
-    [[UITabBar appearance] setTintColor:tabItemFontColor];//设置字体颜色
-
+    
+    //设置NavigationBar背景颜色与字体
+    [[UINavigationBar appearance] setBarTintColor:navBarBgColor];
+    [[UINavigationBar appearance] setTintColor:navBarTintColor] ;//设置navigationbar上左右按钮字体颜色
+    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:navBarTitleColor}];
+    
+    
+     //设置tabbarItem背景颜色与字体
     if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 6)
     {
         [[UITabBar appearance] setShadowImage:[[UIImage alloc] init]];
     }
-    [[UITabBar appearance] setBackgroundImage:[UIImage imageNamed:tabBg]];
-    
+    [[UITabBar appearance] setBackgroundImage:[UIImage imageNamed:tabBg]];//设置背景图片
+    [[UITabBar appearance] setTintColor:tabItemFontColor];//设置字体颜色
 
     BaseTabBarController  *mainVC=[[BaseTabBarController alloc] init];
     [mainVC setViewControllers:[mutableNavController copy]];
     [mainVC setSelectedIndex:tabClickIndex];
+    
+    
+    
+
     
     return  mainVC;
     

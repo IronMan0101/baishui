@@ -6,23 +6,22 @@
 //  Copyright (c) 2015年 suzhiqiu. All rights reserved.
 //
 
-#import "FiveVC.h"
+#import "WinXinFindVC.h"
 #import "CellModel.h"
 #import "BCCategory.h"
 #import "Macros.h"
-#import "WinXinFindVC.h"
 
-@interface FiveVC ()
+@interface WinXinFindVC ()
 
 @end
 
-@implementation FiveVC
+@implementation WinXinFindVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    self.navigationItem.title=@"发现";
+    self.navigationItem.title=@"微信-发现";
     
     [self initData];
     [self initTableView];
@@ -86,22 +85,6 @@
     
 }
 
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    return 44;
-}
-
-//默认间距
-- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
-{
-    return 10;
-}
-
-- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
-{
-    return 10;
-}
-
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -129,19 +112,27 @@
     cell.backgroundColor=[UIColor whiteColor];                       //背景默认白色
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;//灰色符号
 
+
+
     return cell;
     
 }
 
-//点击row
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    //取消选中色
-    [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    
-     WinXinFindVC * winXinFindVC=[[WinXinFindVC alloc] initWithNibName:@"WinXinFindVC" bundle:nil];
-    winXinFindVC.hidesBottomBarWhenPushed=YES;//隐藏
-    [self.navigationController pushViewController:winXinFindVC animated:YES];
+    return 44;
 }
+
+//默认间距
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    return 10;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
+{
+    return 10;
+}
+
 
 @end

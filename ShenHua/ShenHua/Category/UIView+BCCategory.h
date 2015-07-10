@@ -11,26 +11,27 @@
 @interface UIView (BCCategory)
 
 
-/**
- *  获取x
- */
-- (CGFloat)bc_x;
-/**
- *  获取y
- */
-- (CGFloat)bc_y;
-/**
- *  获取width
- */
-- (CGFloat)bc_width;
-/**
- *  获取height
- */
-- (CGFloat)bc_height;
-/**
- *  获取size
- */
-- (CGSize)bc_size;
+//
+///**
+// *  获取x
+// */
+//- (CGFloat)bc_x;
+///**
+// *  获取y
+// */
+//- (CGFloat)bc_y;
+///**
+// *  获取width
+// */
+//- (CGFloat)bc_width;
+///**
+// *  获取height
+// */
+//- (CGFloat)bc_height;
+///**
+// *  获取size
+// */
+//- (CGSize)bc_size;
 
 
 /**
@@ -59,5 +60,10 @@
  *   移除此view上的所有子视图
  */
 - (void)bc_removeAllSubviews;
+/**
+ *   打印大小
+ */
+-(void)bc_log:(NSString *)tip;
+
 
 @end

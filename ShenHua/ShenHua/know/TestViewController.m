@@ -104,13 +104,46 @@
 
 /**
  *  9. 改变cell高度
-     不能修改,属性是readonly
+     不能修改,属性是readonly   cell默认高度44
  */
 
 //cell.imageView.image = [UIImage imageNamed:cellModel.imageName];
 //cell.imageView.frame=CGRectMake(cell.imageView.frame.origin.x, cell.imageView.frame.origin.y, 25, 25);
 //只能对图片进行缩放
 
+
+//- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+//{
+//    return 44;
+//}
+
+
+/**
+ *  10.self.view.frame不能再用了
+ *  采用sizeclass大小一直都是600x600
+ */
+
+//self.tableView =[[UITableView alloc]initWithFrame:self.view.frame style:UITableViewStyleGrouped];
+//self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, UI_SCREEN_WIDTH, UI_SCREEN_HEIGHT-49)  style:UITableViewStyleGrouped] ;
+//
+
+
+/**
+ *  11.uinavgationcontroller层级关系
+ *    navigationItem 是nsobject,bar视图的全部元素（如title,tileview,backBarButtonItem等
+ *    每一个加到navigationController的viewController都会有一个对应的navigationItem，该对象由viewController以懒加载的方式创建
+ *    self.navigationController.navigationItem 是应该被忽视的属性，navigationcontroller继承与view controller，所以会有这个属性，但没有任何作用
+ */
+
+//    self.navigationItem.title=@"发现";
+//    self.navigationController.title=@"发现";
+//    self.navigationController.navigationItem.title=@"发现";
+//    self.title=@"发现";
+
+
+/**
+ *  
+ */
 
 
 @end

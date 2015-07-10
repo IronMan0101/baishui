@@ -8,7 +8,7 @@
 
 #import "BaseViewController.h"
 
-@interface FiveVC : BaseViewController<UITableViewDelegate,UITableViewDataSource>
+@interface WinXinFindVC : BaseViewController<UITableViewDelegate,UITableViewDataSource>
 
 @property(nonatomic,strong)  UITableView *tableView;
 @property(nonatomic,copy)    NSMutableArray  * context;

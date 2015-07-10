@@ -20,6 +20,7 @@
 #import "UIImageView+BCCategory.h"
 #import "UIButton+BCCategory.h"
 #import "UIViewController+BCCategory.h"
+#import "UIImage+BCCategory.h"
 
 
 

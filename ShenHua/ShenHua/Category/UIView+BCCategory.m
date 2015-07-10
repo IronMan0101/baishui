@@ -11,44 +11,43 @@
 @implementation UIView (BCCategory)
 
 
-/**
- *  获取x
- */
-- (CGFloat)bc_x
-{
-    return self.frame.origin.x;
-}
-
-/**
- *  获取y
- */
-- (CGFloat)bc_y
-{
-    return self.frame.origin.y;
-}
-/**
- *  获取width
- */
-- (CGFloat)bc_width
-{
-    return self.frame.size.width;
-}
-
-/**
- *  获取height
- */
-- (CGFloat)bc_height
-{
-    return self.frame.size.height;
-}
-/**
- *  获取size
- */
-- (CGSize)bc_size
-{
-    return self.frame.size;
-}
-
+///**
+// *  获取x
+// */
+//- (CGFloat)bc_x
+//{
+//    return self.frame.origin.x;
+//}
+//
+///**
+// *  获取y
+// */
+//- (CGFloat)bc_y
+//{
+//    return self.frame.origin.y;
+//}
+///**
+// *  获取width
+// */
+//- (CGFloat)bc_width
+//{
+//    return self.frame.size.width;
+//}
+//
+///**
+// *  获取height
+// */
+//- (CGFloat)bc_height
+//{
+//    return self.frame.size.height;
+//}
+///**
+// *  获取size
+// */
+//- (CGSize)bc_size
+//{
+//    return self.frame.size;
+//}
 
 
 
@@ -113,5 +112,14 @@
         [view removeFromSuperview];
     }
 }
+
+/**
+ *   打印大小
+ */
+-(void)bc_log:(NSString *)tip
+{
+    NSLog(@"%@ -- %@",tip,NSStringFromCGRect(self.frame));
+}
+
 
 @end
