@@ -37,8 +37,8 @@
     self.window.backgroundColor = [UIColor whiteColor];
     
     
-     self.window.rootViewController = [self creatTestController];
-   // self.window.rootViewController = [self creatMainController:4];
+   //  self.window.rootViewController = [self creatTestController];
+       self.window.rootViewController = [self creatMainController:4];
     
     HDMChannelTagManager*  _manager = [[HDMChannelTagManager alloc] initWithParameter:nil];
     _manager.channel =2;

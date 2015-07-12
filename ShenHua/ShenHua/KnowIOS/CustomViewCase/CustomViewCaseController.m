@@ -25,7 +25,7 @@
 
 //    [self.view addSubview:self.caseView2];
 //    self.caseText2.text=@"我爱你";
-    
+
 }
 
 

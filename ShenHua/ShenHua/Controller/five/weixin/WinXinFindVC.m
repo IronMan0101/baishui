@@ -138,6 +138,29 @@
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
+/**
+ *  默认横屏
+ *
+ *  @param interfaceOrientation <#interfaceOrientation description#>
+ *
+ *  @return <#return value description#>
+ */
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
+
+-(NSUInteger)supportedInterfaceOrientations
+{
+    return UIInterfaceOrientationMaskAllButUpsideDown;
+}
+
+-(BOOL)shouldAutorotate
+{
+    return YES;
+}
+
 
 
 @end

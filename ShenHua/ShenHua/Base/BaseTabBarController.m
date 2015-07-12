@@ -33,4 +33,25 @@
 
 
 
+/**
+ *  横竖屏切换
+ *
+ */
+-(BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    // You do not need this method if you are not supporting earlier iOS Versions
+    return [self.selectedViewController shouldAutorotateToInterfaceOrientation:interfaceOrientation];
+}
+
+-(NSUInteger)supportedInterfaceOrientations
+{
+    return [self.selectedViewController supportedInterfaceOrientations];
+}
+
+-(BOOL)shouldAutorotate
+{
+    return YES;
+}
+
+
 @end
