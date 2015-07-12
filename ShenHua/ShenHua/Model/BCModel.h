@@ -2,13 +2,42 @@
 #import <Foundation/Foundation.h>
 #import <Mantle.h>
 
-/*!
- *  基础模型
+/*
+ * Mantle模型
  */
 @interface BCModel : MTLModel<MTLJSONSerializing>
 {
     
 }
+
+
+/** 解决json返回带有脏数据
+ *  {
+ *    "copyToChina": null
+ *  }
+ *
+ */
+- (void)setNilValueForKey:(NSString *)key;
+
+
+/**
+ *  iOS中处理URL使用的是NSURL类型，但JSON只支持基本的字符串
+ *
+ */
++ (NSValueTransformer *)URLJSONTransformer;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 + (instancetype)testInstance;
 

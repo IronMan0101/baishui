@@ -223,6 +223,12 @@ static NSNumber *Flag = nil;
                     NSString * msg = [responseObject objectForKey:@"msg"];
                     NSLog(@"code:%@, msg:%@", code, msg);
                     
+//                    NSStringEncoding enc = CFStringConvertEncodingToNSStringEncoding(kCFStringEncodingGB_18030_2000);
+//                    NSData *data=[responseObject dataUsingEncoding:-2147482063];
+//                    NSString *retStr = [[NSString alloc] initWithData:data encoding:enc];
+//                    NSLog(@"success:%@",retStr);
+//                    NSLog(@"");
+                    
                     successBlock(task, responseObject);
                 } failure:^(NSURLSessionDataTask *task, NSError *error) {
                     NetworkFailureBlock failureBlock = [APIParameters lastObject];

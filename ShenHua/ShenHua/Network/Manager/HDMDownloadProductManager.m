@@ -33,25 +33,25 @@
     
     NSLog(@"下载下一部作品");
     
-    for (int i=0; i<[self.contextList count]; i++)
-    {
-        HDMProduct * product = [self.contextList objectAtIndex:i];
-//      //  HDMSection * section = [[HDMDatabaseOperation sharedInstance] firstDownloadSectionOfProduct:product];
-//        if (section)
-//        {
-//            [[HDMDownloadManager sharedInstance] downloadProduct:product Section:section];
-//            return;
-//        }
-    }
-    
-    for (HDMProduct * product in self.contextList)
-    {
-//        NSInteger unDownloadSectionNumber = [[HDMDatabaseOperation sharedInstance] unDownloadSectionNumberOfProduct:product];
-//        if (unDownloadSectionNumber>0)
-//        {
-//            return;
-//        }
-    }
+//    for (int i=0; i<[self.contextList count]; i++)
+//    {
+//        HDMProduct * product = [self.contextList objectAtIndex:i];
+////      //  HDMSection * section = [[HDMDatabaseOperation sharedInstance] firstDownloadSectionOfProduct:product];
+////        if (section)
+////        {
+////            [[HDMDownloadManager sharedInstance] downloadProduct:product Section:section];
+////            return;
+////        }
+//    }
+//    
+//    for (HDMProduct * product in self.contextList)
+//    {
+////        NSInteger unDownloadSectionNumber = [[HDMDatabaseOperation sharedInstance] unDownloadSectionNumberOfProduct:product];
+////        if (unDownloadSectionNumber>0)
+////        {
+////            return;
+////        }
+//    }
     
     HDM_Global.isShowDPB = NO;
 }

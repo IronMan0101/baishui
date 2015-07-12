@@ -19,6 +19,7 @@
 #import "Macros.h"
 
 #import "CustomViewCaseController.h"
+#import "HDMChannelTagManager.h"
 
 
 
@@ -38,6 +39,18 @@
     
      self.window.rootViewController = [self creatTestController];
    // self.window.rootViewController = [self creatMainController:4];
+    
+    HDMChannelTagManager*  _manager = [[HDMChannelTagManager alloc] initWithParameter:nil];
+    _manager.channel =2;
+    [_manager enquiryListSuccess:^(NSDictionary *codeMsg) {
+        
+        NSLog(@"success");
+        
+    } Failure:^(NSDictionary *codeMsg)
+     {
+         NSLog(@"获取菜单失败");
+      //   [HDMPushData sharedInstance].pushChannelState = PushChannelStateDefault;
+     }];
     
     
 

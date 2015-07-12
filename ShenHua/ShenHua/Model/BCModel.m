@@ -17,10 +17,58 @@
 @synthesize modelTag = _modelTag;
 
 
-+ (instancetype)testInstance;{
-    
-    return nil;
+/**
+ *  1.如果属性名和JSON的键名一致时，是可以省略不写映射的
+ *  mantle实战
+ *  http://www.tuicool.com/articles/iYrye2Q
+ *  https://github.com/ipinka/AvoidMTLModelCrash
+ */
+
+
+
+
+/** 解决json返回带有脏数据
+ *  {
+ *    "copyToChina": null
+ *  }
+ *
+ */
+- (void)setNilValueForKey:(NSString *)key
+{
+    [self setValue:@0 forKey:key];  // For NSInteger/CGFloat/BOOL
 }
+
+
+/**
+ *  子类必须实现继承
+ *
+ *  @return <#return value description#>  实体:JSON
+ */
++ (NSDictionary *)JSONKeyPathsByPropertyKey{
+    
+    return @{@"": @""};
+}
+
+/**
+ *  iOS中处理URL使用的是NSURL类型，但JSON只支持基本的字符串
+ *
+ */
++ (NSValueTransformer *)URLJSONTransformer
+{
+    return [NSValueTransformer valueTransformerForName:MTLURLValueTransformerName];
+}
+
+
+
+//例如某些接口返回的数据是数组，但很多时候只需要用到这个数组的第一个元素。我们可以直接将数组里面的一个元素影射出来。
+// + (NSValueTransformer *)pointListJSONTransformer
+//{
+//    return [MTLValueTransformer transformerUsingForwardBlock:^id(NSArray *array) {
+//            return [array firstObject];
+//        }];
+//
+//
+//}
 
 - (instancetype)initWithAttributes:(NSDictionary *)attributes {
     
