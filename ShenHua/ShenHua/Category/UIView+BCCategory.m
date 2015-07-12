@@ -11,43 +11,43 @@
 @implementation UIView (BCCategory)
 
 
-///**
-// *  获取x
-// */
-//- (CGFloat)bc_x
-//{
-//    return self.frame.origin.x;
-//}
-//
-///**
-// *  获取y
-// */
-//- (CGFloat)bc_y
-//{
-//    return self.frame.origin.y;
-//}
-///**
-// *  获取width
-// */
-//- (CGFloat)bc_width
-//{
-//    return self.frame.size.width;
-//}
-//
-///**
-// *  获取height
-// */
-//- (CGFloat)bc_height
-//{
-//    return self.frame.size.height;
-//}
-///**
-// *  获取size
-// */
-//- (CGSize)bc_size
-//{
-//    return self.frame.size;
-//}
+/**
+ *  获取x
+ */
+- (CGFloat)bc_x
+{
+    return self.frame.origin.x;
+}
+
+/**
+ *  获取y
+ */
+- (CGFloat)bc_y
+{
+    return self.frame.origin.y;
+}
+/**
+ *  获取width
+ */
+- (CGFloat)bc_width
+{
+    return self.frame.size.width;
+}
+
+/**
+ *  获取height
+ */
+- (CGFloat)bc_height
+{
+    return self.frame.size.height;
+}
+/**
+ *  获取size
+ */
+- (CGSize)bc_size
+{
+    return self.frame.size;
+}
 
 
 
@@ -120,6 +120,29 @@
 {
     NSLog(@"%@ -- %@",tip,NSStringFromCGRect(self.frame));
 }
+
+
+/**
+ *  加载Xib
+ */
++ (id)bc_loadNib:(NSString*)nibName
+{
+    UIView *result = nil;
+    NSArray *views = [[NSBundle mainBundle] loadNibNamed:nibName owner:nil options:nil];
+    
+    for (id object in views)
+    {
+        if ([object isKindOfClass:[self class]])  // uiview 第一层   在上面可能放其他
+        {
+            result = object;
+            break;
+        }
+    }
+    
+    //return views[0];//排序再第一个 默认
+    return result;
+}
+
 
 
 @end

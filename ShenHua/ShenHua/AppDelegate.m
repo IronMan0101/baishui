@@ -18,6 +18,8 @@
 #import "BCCategory.h"
 #import "Macros.h"
 
+#import "CustomViewCaseController.h"
+
 
 
 @interface AppDelegate ()
@@ -34,8 +36,8 @@
     self.window.backgroundColor = [UIColor whiteColor];
     
     
-    // self.window.rootViewController = [self creatTestController];
-    self.window.rootViewController = [self creatMainController:4];
+     self.window.rootViewController = [self creatTestController];
+   // self.window.rootViewController = [self creatMainController:4];
     
     
 
@@ -45,19 +47,16 @@
 
 /**
  *  测试控制器
- *
- *  @return <#return value description#>
  */
 - (UIViewController *)creatTestController
 {
-    TestViewController * testVC=[[TestViewController alloc] initWithNibName:@"TestViewController" bundle:nil];
+   // TestViewController * testVC=[[TestViewController alloc] initWithNibName:@"TestViewController" bundle:nil];
+    CustomViewCaseController * testVC=[[CustomViewCaseController alloc] initWithNibName:@"CustomViewCaseController" bundle:nil];
     return  testVC;
 }
 
 /**
  *  获取主控制器
- *
- *  @return <#return value description#>
  */
 
 - (UIViewController *)creatMainController:(NSInteger)tabClickIndex
