@@ -16,6 +16,11 @@
 		7582FBB41B4FCC0400A3766B /* 微信-发现.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7582FBB31B4FCC0400A3766B /* 微信-发现.jpg */; };
 		7582FBB81B4FCC5600A3766B /* WinXinFindVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7582FBB61B4FCC5600A3766B /* WinXinFindVC.m */; };
 		7582FBB91B4FCC5600A3766B /* WinXinFindVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7582FBB71B4FCC5600A3766B /* WinXinFindVC.xib */; };
+		75ABD4E11B520DDC00C1E607 /* 工具.md in Sources */ = {isa = PBXBuildFile; fileRef = 75ABD4DC1B520DDC00C1E607 /* 工具.md */; };
+		75ABD4E21B520DDC00C1E607 /* 构架.md in Sources */ = {isa = PBXBuildFile; fileRef = 75ABD4DD1B520DDC00C1E607 /* 构架.md */; };
+		75ABD4E31B520DDC00C1E607 /* 管理.md in Sources */ = {isa = PBXBuildFile; fileRef = 75ABD4DE1B520DDC00C1E607 /* 管理.md */; };
+		75ABD4E41B520DDC00C1E607 /* 经验.md in Sources */ = {isa = PBXBuildFile; fileRef = 75ABD4DF1B520DDC00C1E607 /* 经验.md */; };
+		75ABD4E51B520DDC00C1E607 /* 文章.md in Sources */ = {isa = PBXBuildFile; fileRef = 75ABD4E01B520DDC00C1E607 /* 文章.md */; };
 		75D9A88C1B4E6C4500C4CB34 /* CacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D9A88B1B4E6C4500C4CB34 /* CacheManager.m */; };
 		75D9A88F1B4E70C600C4CB34 /* SDCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D9A88E1B4E70C600C4CB34 /* SDCache.m */; };
 		75DCFBEE1B4C11AC00CAA349 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DCFBED1B4C11AC00CAA349 /* BaseViewController.m */; };
@@ -76,6 +81,11 @@
 		7582FBB51B4FCC5600A3766B /* WinXinFindVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinXinFindVC.h; sourceTree = "<group>"; };
 		7582FBB61B4FCC5600A3766B /* WinXinFindVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WinXinFindVC.m; sourceTree = "<group>"; };
 		7582FBB71B4FCC5600A3766B /* WinXinFindVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WinXinFindVC.xib; sourceTree = "<group>"; };
+		75ABD4DC1B520DDC00C1E607 /* 工具.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "工具.md"; sourceTree = "<group>"; };
+		75ABD4DD1B520DDC00C1E607 /* 构架.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "构架.md"; sourceTree = "<group>"; };
+		75ABD4DE1B520DDC00C1E607 /* 管理.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "管理.md"; sourceTree = "<group>"; };
+		75ABD4DF1B520DDC00C1E607 /* 经验.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "经验.md"; sourceTree = "<group>"; };
+		75ABD4E01B520DDC00C1E607 /* 文章.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "文章.md"; sourceTree = "<group>"; };
 		75D9A88A1B4E6C4500C4CB34 /* CacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheManager.h; sourceTree = "<group>"; };
 		75D9A88B1B4E6C4500C4CB34 /* CacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheManager.m; sourceTree = "<group>"; };
 		75D9A88D1B4E70C600C4CB34 /* SDCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCache.h; sourceTree = "<group>"; };
@@ -402,6 +412,11 @@
 		75DCFC1F1B4D1EBC00CAA349 /* Know */ = {
 			isa = PBXGroup;
 			children = (
+				75ABD4DC1B520DDC00C1E607 /* 工具.md */,
+				75ABD4DD1B520DDC00C1E607 /* 构架.md */,
+				75ABD4DE1B520DDC00C1E607 /* 管理.md */,
+				75ABD4DF1B520DDC00C1E607 /* 经验.md */,
+				75ABD4E01B520DDC00C1E607 /* 文章.md */,
 				75DCFC201B4D1EBC00CAA349 /* TestViewController.h */,
 				75DCFC211B4D1EBC00CAA349 /* TestViewController.m */,
 				75DCFC221B4D1EBC00CAA349 /* TestViewController.xib */,
@@ -581,9 +596,12 @@
 				75DCFBF41B4C11DF00CAA349 /* BaseTabBarController.m in Sources */,
 				75DCFC0D1B4C145900CAA349 /* FourVC.m in Sources */,
 				75EC99281B492ECB00A5388A /* UITextField+BCCategory.m in Sources */,
+				75ABD4E41B520DDC00C1E607 /* 经验.md in Sources */,
 				75DCFC031B4C137300CAA349 /* TwoVC.m in Sources */,
+				75ABD4E51B520DDC00C1E607 /* 文章.md in Sources */,
 				75D9A88C1B4E6C4500C4CB34 /* CacheManager.m in Sources */,
 				75EC991F1B492E1E00A5388A /* NSData+BCCategory.m in Sources */,
+				75ABD4E11B520DDC00C1E607 /* 工具.md in Sources */,
 				75DCFC081B4C13CC00CAA349 /* ThreeVC.m in Sources */,
 				75EC99251B492EA600A5388A /* UILabel+BCCategory.m in Sources */,
 				75EC992E1B492F2800A5388A /* UIButton+BCCategory.m in Sources */,
@@ -592,11 +610,13 @@
 				75EC99311B492F7700A5388A /* UIViewController+BCCategory.m in Sources */,
 				7578B1261B4F6B8600CAFC40 /* CellModel.m in Sources */,
 				75EC99221B492E3000A5388A /* NSString+BCCategory.m in Sources */,
+				75ABD4E31B520DDC00C1E607 /* 管理.md in Sources */,
 				75DCFC231B4D1EBC00CAA349 /* TestViewController.m in Sources */,
 				7582FBB81B4FCC5600A3766B /* WinXinFindVC.m in Sources */,
 				75DCFC121B4C14DD00CAA349 /* FiveVC.m in Sources */,
 				75DCFC291B4D740D00CAA349 /* Config.m in Sources */,
 				751707CC1B4620F6007F1AE2 /* main.m in Sources */,
+				75ABD4E21B520DDC00C1E607 /* 构架.md in Sources */,
 				75DCFBF11B4C11CC00CAA349 /* BaseNavigationController.m in Sources */,
 				7582FBB11B4FA1CD00A3766B /* UIImage+BCCategory.m in Sources */,
 			);
