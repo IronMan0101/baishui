@@ -16,20 +16,19 @@
 		7582FBB41B4FCC0400A3766B /* 微信-发现.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7582FBB31B4FCC0400A3766B /* 微信-发现.jpg */; };
 		7582FBB81B4FCC5600A3766B /* WinXinFindVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7582FBB61B4FCC5600A3766B /* WinXinFindVC.m */; };
 		7582FBB91B4FCC5600A3766B /* WinXinFindVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7582FBB71B4FCC5600A3766B /* WinXinFindVC.xib */; };
-		75A7F1281B5250A50095F3B7 /* CustomViewCaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1181B5250A50095F3B7 /* CustomViewCaseController.m */; };
-		75A7F1291B5250A50095F3B7 /* CustomViewCaseController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75A7F1191B5250A50095F3B7 /* CustomViewCaseController.xib */; };
-		75A7F12A1B5250A50095F3B7 /* CutomViewCase1.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F11B1B5250A50095F3B7 /* CutomViewCase1.m */; };
-		75A7F12B1B5250A50095F3B7 /* CutomViewCase1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75A7F11C1B5250A50095F3B7 /* CutomViewCase1.xib */; };
-		75A7F12C1B5250A50095F3B7 /* test.md in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F11D1B5250A50095F3B7 /* test.md */; };
-		75A7F12D1B5250A50095F3B7 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F11F1B5250A50095F3B7 /* TestViewController.m */; };
-		75A7F12E1B5250A50095F3B7 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75A7F1201B5250A50095F3B7 /* TestViewController.xib */; };
-		75A7F12F1B5250A50095F3B7 /* 备份.md in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1211B5250A50095F3B7 /* 备份.md */; };
-		75A7F1301B5250A50095F3B7 /* 审核.md in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1221B5250A50095F3B7 /* 审核.md */; };
-		75A7F1311B5250A50095F3B7 /* 工具.md in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1231B5250A50095F3B7 /* 工具.md */; };
-		75A7F1321B5250A50095F3B7 /* 文章.md in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1241B5250A50095F3B7 /* 文章.md */; };
-		75A7F1331B5250A50095F3B7 /* 构架.md in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1251B5250A50095F3B7 /* 构架.md */; };
-		75A7F1341B5250A50095F3B7 /* 管理.md in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1261B5250A50095F3B7 /* 管理.md */; };
-		75A7F1351B5250A50095F3B7 /* 经验.md in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1271B5250A50095F3B7 /* 经验.md */; };
+		75A7F1481B5251960095F3B7 /* CustomViewCaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1391B5251960095F3B7 /* CustomViewCaseController.m */; };
+		75A7F1491B5251960095F3B7 /* CustomViewCaseController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75A7F13A1B5251960095F3B7 /* CustomViewCaseController.xib */; };
+		75A7F14A1B5251960095F3B7 /* CutomViewCase1.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F13C1B5251960095F3B7 /* CutomViewCase1.m */; };
+		75A7F14B1B5251960095F3B7 /* CutomViewCase1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75A7F13D1B5251960095F3B7 /* CutomViewCase1.xib */; };
+		75A7F14C1B5251960095F3B7 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F13F1B5251960095F3B7 /* TestViewController.m */; };
+		75A7F14D1B5251960095F3B7 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75A7F1401B5251960095F3B7 /* TestViewController.xib */; };
+		75A7F14E1B5251960095F3B7 /* 备份.md in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1411B5251960095F3B7 /* 备份.md */; };
+		75A7F14F1B5251960095F3B7 /* 审核.md in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1421B5251960095F3B7 /* 审核.md */; };
+		75A7F1501B5251960095F3B7 /* 工具.md in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1431B5251960095F3B7 /* 工具.md */; };
+		75A7F1511B5251960095F3B7 /* 文章.md in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1441B5251960095F3B7 /* 文章.md */; };
+		75A7F1521B5251960095F3B7 /* 构架.md in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1451B5251960095F3B7 /* 构架.md */; };
+		75A7F1531B5251960095F3B7 /* 管理.md in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1461B5251960095F3B7 /* 管理.md */; };
+		75A7F1541B5251960095F3B7 /* 经验.md in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1471B5251960095F3B7 /* 经验.md */; };
 		75D9A88C1B4E6C4500C4CB34 /* CacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D9A88B1B4E6C4500C4CB34 /* CacheManager.m */; };
 		75D9A88F1B4E70C600C4CB34 /* SDCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D9A88E1B4E70C600C4CB34 /* SDCache.m */; };
 		75DCFBEE1B4C11AC00CAA349 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DCFBED1B4C11AC00CAA349 /* BaseViewController.m */; };
@@ -88,23 +87,22 @@
 		7582FBB51B4FCC5600A3766B /* WinXinFindVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinXinFindVC.h; sourceTree = "<group>"; };
 		7582FBB61B4FCC5600A3766B /* WinXinFindVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WinXinFindVC.m; sourceTree = "<group>"; };
 		7582FBB71B4FCC5600A3766B /* WinXinFindVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WinXinFindVC.xib; sourceTree = "<group>"; };
-		75A7F1171B5250A50095F3B7 /* CustomViewCaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewCaseController.h; sourceTree = "<group>"; };
-		75A7F1181B5250A50095F3B7 /* CustomViewCaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewCaseController.m; sourceTree = "<group>"; };
-		75A7F1191B5250A50095F3B7 /* CustomViewCaseController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomViewCaseController.xib; sourceTree = "<group>"; };
-		75A7F11A1B5250A50095F3B7 /* CutomViewCase1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CutomViewCase1.h; sourceTree = "<group>"; };
-		75A7F11B1B5250A50095F3B7 /* CutomViewCase1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CutomViewCase1.m; sourceTree = "<group>"; };
-		75A7F11C1B5250A50095F3B7 /* CutomViewCase1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CutomViewCase1.xib; sourceTree = "<group>"; };
-		75A7F11D1B5250A50095F3B7 /* test.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = test.md; sourceTree = "<group>"; };
-		75A7F11E1B5250A50095F3B7 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
-		75A7F11F1B5250A50095F3B7 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
-		75A7F1201B5250A50095F3B7 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
-		75A7F1211B5250A50095F3B7 /* 备份.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "备份.md"; sourceTree = "<group>"; };
-		75A7F1221B5250A50095F3B7 /* 审核.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "审核.md"; sourceTree = "<group>"; };
-		75A7F1231B5250A50095F3B7 /* 工具.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "工具.md"; sourceTree = "<group>"; };
-		75A7F1241B5250A50095F3B7 /* 文章.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "文章.md"; sourceTree = "<group>"; };
-		75A7F1251B5250A50095F3B7 /* 构架.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "构架.md"; sourceTree = "<group>"; };
-		75A7F1261B5250A50095F3B7 /* 管理.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "管理.md"; sourceTree = "<group>"; };
-		75A7F1271B5250A50095F3B7 /* 经验.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "经验.md"; sourceTree = "<group>"; };
+		75A7F1381B5251960095F3B7 /* CustomViewCaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewCaseController.h; sourceTree = "<group>"; };
+		75A7F1391B5251960095F3B7 /* CustomViewCaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewCaseController.m; sourceTree = "<group>"; };
+		75A7F13A1B5251960095F3B7 /* CustomViewCaseController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomViewCaseController.xib; sourceTree = "<group>"; };
+		75A7F13B1B5251960095F3B7 /* CutomViewCase1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CutomViewCase1.h; sourceTree = "<group>"; };
+		75A7F13C1B5251960095F3B7 /* CutomViewCase1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CutomViewCase1.m; sourceTree = "<group>"; };
+		75A7F13D1B5251960095F3B7 /* CutomViewCase1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CutomViewCase1.xib; sourceTree = "<group>"; };
+		75A7F13E1B5251960095F3B7 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		75A7F13F1B5251960095F3B7 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		75A7F1401B5251960095F3B7 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		75A7F1411B5251960095F3B7 /* 备份.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "备份.md"; sourceTree = "<group>"; };
+		75A7F1421B5251960095F3B7 /* 审核.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "审核.md"; sourceTree = "<group>"; };
+		75A7F1431B5251960095F3B7 /* 工具.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "工具.md"; sourceTree = "<group>"; };
+		75A7F1441B5251960095F3B7 /* 文章.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "文章.md"; sourceTree = "<group>"; };
+		75A7F1451B5251960095F3B7 /* 构架.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "构架.md"; sourceTree = "<group>"; };
+		75A7F1461B5251960095F3B7 /* 管理.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "管理.md"; sourceTree = "<group>"; };
+		75A7F1471B5251960095F3B7 /* 经验.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "经验.md"; sourceTree = "<group>"; };
 		75D9A88A1B4E6C4500C4CB34 /* CacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheManager.h; sourceTree = "<group>"; };
 		75D9A88B1B4E6C4500C4CB34 /* CacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheManager.m; sourceTree = "<group>"; };
 		75D9A88D1B4E70C600C4CB34 /* SDCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCache.h; sourceTree = "<group>"; };
@@ -218,7 +216,7 @@
 		751707C81B4620F6007F1AE2 /* ShenHua */ = {
 			isa = PBXGroup;
 			children = (
-				75A7F1151B5250A50095F3B7 /* Know */,
+				75A7F1361B5251960095F3B7 /* KnowIOS */,
 				75DCFC261B4D740000CAA349 /* Factory */,
 				75DCFBF51B4C121200CAA349 /* Application */,
 				75DCFBEB1B4C116D00CAA349 /* Base */,
@@ -280,34 +278,33 @@
 			path = login;
 			sourceTree = "<group>";
 		};
-		75A7F1151B5250A50095F3B7 /* Know */ = {
+		75A7F1361B5251960095F3B7 /* KnowIOS */ = {
 			isa = PBXGroup;
 			children = (
-				75A7F1161B5250A50095F3B7 /* CustomViewCase */,
-				75A7F11E1B5250A50095F3B7 /* TestViewController.h */,
-				75A7F11F1B5250A50095F3B7 /* TestViewController.m */,
-				75A7F1201B5250A50095F3B7 /* TestViewController.xib */,
-				75A7F1211B5250A50095F3B7 /* 备份.md */,
-				75A7F1221B5250A50095F3B7 /* 审核.md */,
-				75A7F1231B5250A50095F3B7 /* 工具.md */,
-				75A7F1241B5250A50095F3B7 /* 文章.md */,
-				75A7F1251B5250A50095F3B7 /* 构架.md */,
-				75A7F1261B5250A50095F3B7 /* 管理.md */,
-				75A7F1271B5250A50095F3B7 /* 经验.md */,
+				75A7F1371B5251960095F3B7 /* CustomViewCase */,
+				75A7F13E1B5251960095F3B7 /* TestViewController.h */,
+				75A7F13F1B5251960095F3B7 /* TestViewController.m */,
+				75A7F1401B5251960095F3B7 /* TestViewController.xib */,
+				75A7F1411B5251960095F3B7 /* 备份.md */,
+				75A7F1421B5251960095F3B7 /* 审核.md */,
+				75A7F1431B5251960095F3B7 /* 工具.md */,
+				75A7F1441B5251960095F3B7 /* 文章.md */,
+				75A7F1451B5251960095F3B7 /* 构架.md */,
+				75A7F1461B5251960095F3B7 /* 管理.md */,
+				75A7F1471B5251960095F3B7 /* 经验.md */,
 			);
-			path = Know;
+			path = KnowIOS;
 			sourceTree = "<group>";
 		};
-		75A7F1161B5250A50095F3B7 /* CustomViewCase */ = {
+		75A7F1371B5251960095F3B7 /* CustomViewCase */ = {
 			isa = PBXGroup;
 			children = (
-				75A7F1171B5250A50095F3B7 /* CustomViewCaseController.h */,
-				75A7F1181B5250A50095F3B7 /* CustomViewCaseController.m */,
-				75A7F1191B5250A50095F3B7 /* CustomViewCaseController.xib */,
-				75A7F11A1B5250A50095F3B7 /* CutomViewCase1.h */,
-				75A7F11B1B5250A50095F3B7 /* CutomViewCase1.m */,
-				75A7F11C1B5250A50095F3B7 /* CutomViewCase1.xib */,
-				75A7F11D1B5250A50095F3B7 /* test.md */,
+				75A7F1381B5251960095F3B7 /* CustomViewCaseController.h */,
+				75A7F1391B5251960095F3B7 /* CustomViewCaseController.m */,
+				75A7F13A1B5251960095F3B7 /* CustomViewCaseController.xib */,
+				75A7F13B1B5251960095F3B7 /* CutomViewCase1.h */,
+				75A7F13C1B5251960095F3B7 /* CutomViewCase1.m */,
+				75A7F13D1B5251960095F3B7 /* CutomViewCase1.xib */,
 			);
 			path = CustomViewCase;
 			sourceTree = "<group>";
@@ -561,11 +558,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75A7F1291B5250A50095F3B7 /* CustomViewCaseController.xib in Resources */,
+				75A7F1491B5251960095F3B7 /* CustomViewCaseController.xib in Resources */,
 				75DCFC041B4C137300CAA349 /* TwoVC.xib in Resources */,
 				75DCFC0E1B4C145900CAA349 /* FourVC.xib in Resources */,
-				75A7F12E1B5250A50095F3B7 /* TestViewController.xib in Resources */,
-				75A7F12B1B5250A50095F3B7 /* CutomViewCase1.xib in Resources */,
+				75A7F14D1B5251960095F3B7 /* TestViewController.xib in Resources */,
+				75A7F14B1B5251960095F3B7 /* CutomViewCase1.xib in Resources */,
 				75DCFBFF1B4C130D00CAA349 /* OneVC.xib in Resources */,
 				751707D71B4620F6007F1AE2 /* Images.xcassets in Resources */,
 				7582FBB41B4FCC0400A3766B /* 微信-发现.jpg in Resources */,
@@ -622,43 +619,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75A7F1311B5250A50095F3B7 /* 工具.md in Sources */,
+				75A7F1511B5251960095F3B7 /* 文章.md in Sources */,
+				75A7F1501B5251960095F3B7 /* 工具.md in Sources */,
 				75DCFBFE1B4C130D00CAA349 /* OneVC.m in Sources */,
 				75EC992B1B492EF400A5388A /* UIImageView+BCCategory.m in Sources */,
 				75EC99191B492DF000A5388A /* UIView+BCCategory.m in Sources */,
 				751707CF1B4620F6007F1AE2 /* AppDelegate.m in Sources */,
+				75A7F1531B5251960095F3B7 /* 管理.md in Sources */,
 				75EC99161B492DD700A5388A /* NSObject+BCCategory.m in Sources */,
-				75A7F1351B5250A50095F3B7 /* 经验.md in Sources */,
 				75DCFBEE1B4C11AC00CAA349 /* BaseViewController.m in Sources */,
 				75DCFBF41B4C11DF00CAA349 /* BaseTabBarController.m in Sources */,
 				75DCFC0D1B4C145900CAA349 /* FourVC.m in Sources */,
+				75A7F1521B5251960095F3B7 /* 构架.md in Sources */,
 				75EC99281B492ECB00A5388A /* UITextField+BCCategory.m in Sources */,
 				75DCFC031B4C137300CAA349 /* TwoVC.m in Sources */,
 				75D9A88C1B4E6C4500C4CB34 /* CacheManager.m in Sources */,
 				75EC991F1B492E1E00A5388A /* NSData+BCCategory.m in Sources */,
 				75DCFC081B4C13CC00CAA349 /* ThreeVC.m in Sources */,
-				75A7F12C1B5250A50095F3B7 /* test.md in Sources */,
 				75EC99251B492EA600A5388A /* UILabel+BCCategory.m in Sources */,
 				75EC992E1B492F2800A5388A /* UIButton+BCCategory.m in Sources */,
 				75D9A88F1B4E70C600C4CB34 /* SDCache.m in Sources */,
 				75EC991C1B492E0D00A5388A /* UIColor+BCCategory.m in Sources */,
-				75A7F12F1B5250A50095F3B7 /* 备份.md in Sources */,
 				75EC99311B492F7700A5388A /* UIViewController+BCCategory.m in Sources */,
+				75A7F14E1B5251960095F3B7 /* 备份.md in Sources */,
 				7578B1261B4F6B8600CAFC40 /* CellModel.m in Sources */,
+				75A7F14F1B5251960095F3B7 /* 审核.md in Sources */,
 				75EC99221B492E3000A5388A /* NSString+BCCategory.m in Sources */,
 				7582FBB81B4FCC5600A3766B /* WinXinFindVC.m in Sources */,
+				75A7F1541B5251960095F3B7 /* 经验.md in Sources */,
 				75DCFC121B4C14DD00CAA349 /* FiveVC.m in Sources */,
+				75A7F14C1B5251960095F3B7 /* TestViewController.m in Sources */,
 				75DCFC291B4D740D00CAA349 /* Config.m in Sources */,
-				75A7F12D1B5250A50095F3B7 /* TestViewController.m in Sources */,
-				75A7F1341B5250A50095F3B7 /* 管理.md in Sources */,
 				751707CC1B4620F6007F1AE2 /* main.m in Sources */,
-				75A7F1281B5250A50095F3B7 /* CustomViewCaseController.m in Sources */,
-				75A7F1321B5250A50095F3B7 /* 文章.md in Sources */,
+				75A7F1481B5251960095F3B7 /* CustomViewCaseController.m in Sources */,
 				75DCFBF11B4C11CC00CAA349 /* BaseNavigationController.m in Sources */,
-				75A7F1301B5250A50095F3B7 /* 审核.md in Sources */,
-				75A7F1331B5250A50095F3B7 /* 构架.md in Sources */,
 				7582FBB11B4FA1CD00A3766B /* UIImage+BCCategory.m in Sources */,
-				75A7F12A1B5250A50095F3B7 /* CutomViewCase1.m in Sources */,
+				75A7F14A1B5251960095F3B7 /* CutomViewCase1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
