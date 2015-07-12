@@ -20,5 +20,14 @@
 #endif
 
 #import "BCCategory.h"
+#import "BCModel.h"
+#import "BCNetwork.h"
+#import "BCCommonTypes.h"
+#import "BCConfigure.h"
+#import "PCCommonDefines.h"
+#import "BCCommonTypes.h"
+#import "BCCommonDefines.h"
+#import "BCEncryption.h"
+
 
 #endif
