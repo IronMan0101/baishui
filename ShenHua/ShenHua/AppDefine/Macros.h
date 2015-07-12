@@ -21,6 +21,7 @@
 #define UI_NAVBAR_HEIGHT           44                                         //UINavgationbar高度
 #define UI_TABBAR_HEIGHT           49                                         //tabbar高度
 #define UI_STATUS_BAR_HEIGHT       20                                         //状态栏高度
+//#define UI_STATUS_BAR_HEIGHT      ([[UIApplication sharedApplication] statusBarFrame].size.height) 开启热点变成40
 #define UI_SCREEN_WIDTH            [UIScreen mainScreen].bounds.size.width    //屏幕宽度
 #define UI_SCREEN_HEIGHT           [UIScreen mainScreen].bounds.size.height   //屏幕高度
 

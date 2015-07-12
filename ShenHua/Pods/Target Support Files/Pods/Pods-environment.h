@@ -72,6 +72,12 @@
 #define COCOAPODS_VERSION_MINOR_KVOController 0
 #define COCOAPODS_VERSION_PATCH_KVOController 3
 
+// MBProgressHUD
+#define COCOAPODS_POD_AVAILABLE_MBProgressHUD
+#define COCOAPODS_VERSION_MAJOR_MBProgressHUD 0
+#define COCOAPODS_VERSION_MINOR_MBProgressHUD 9
+#define COCOAPODS_VERSION_PATCH_MBProgressHUD 1
+
 // Mantle
 #define COCOAPODS_POD_AVAILABLE_Mantle
 #define COCOAPODS_VERSION_MAJOR_Mantle 2
@@ -107,6 +113,12 @@
 #define COCOAPODS_VERSION_MAJOR_NJKWebViewProgress_ProgressView 0
 #define COCOAPODS_VERSION_MINOR_NJKWebViewProgress_ProgressView 2
 #define COCOAPODS_VERSION_PATCH_NJKWebViewProgress_ProgressView 3
+
+// Reachability
+#define COCOAPODS_POD_AVAILABLE_Reachability
+#define COCOAPODS_VERSION_MAJOR_Reachability 3
+#define COCOAPODS_VERSION_MINOR_Reachability 2
+#define COCOAPODS_VERSION_PATCH_Reachability 0
 
 // RegexKitLite
 #define COCOAPODS_POD_AVAILABLE_RegexKitLite

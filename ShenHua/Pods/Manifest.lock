@@ -30,11 +30,13 @@ PODS:
     - Mantle/extobjc (= 2.0.2)
   - Mantle/extobjc (2.0.2)
   - Masonry (0.6.2)
+  - MBProgressHUD (0.9.1)
   - NJKWebViewProgress (0.2.3):
     - NJKWebViewProgress/Core (= 0.2.3)
     - NJKWebViewProgress/ProgressView (= 0.2.3)
   - NJKWebViewProgress/Core (0.2.3)
   - NJKWebViewProgress/ProgressView (0.2.3)
+  - Reachability (3.2)
   - RegexKitLite (4.0)
   - SDWebImage (3.7.2):
     - SDWebImage/Core (= 3.7.2)
@@ -44,10 +46,12 @@ PODS:
 DEPENDENCIES:
   - AFNetworking (~> 2.5.4)
   - FMDB (~> 2.5)
-  - KVOController
+  - KVOController (~> 1.0.3)
   - Mantle (~> 2.0.2)
   - Masonry (~> 0.6.1)
+  - MBProgressHUD (~> 0.9.1)
   - NJKWebViewProgress (~> 0.2.3)
+  - Reachability (~> 3.2)
   - RegexKitLite (~> 4.0)
   - SDWebImage (~> 3.7.2)
   - SMPageControl (~> 1.2)
@@ -58,7 +62,9 @@ SPEC CHECKSUMS:
   KVOController: 9fd8f0343670994e4b6f9f0b31f5a45663f3e1cf
   Mantle: 967fd31ea0220890b2e76589198996b534bb3fb1
   Masonry: 362e8a1cc0beada4a4c4832d5e863da2a51533be
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
   NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
   SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
   SMPageControl: 922892813001cfaf059e86e6801f46a967e9ee29
