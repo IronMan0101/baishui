@@ -28,6 +28,8 @@
 #import "BCCommonTypes.h"
 #import "BCCommonDefines.h"
 #import "BCEncryption.h"
+#import "BCManager.h"
+#import "HDMNetwork.h"
 
 
 #endif

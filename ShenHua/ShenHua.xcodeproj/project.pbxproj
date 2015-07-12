@@ -55,6 +55,46 @@
 		75A7F19F1B52662A0095F3B7 /* DBTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F19E1B52662A0095F3B7 /* DBTool.m */; };
 		75A7F1A51B5268DD0095F3B7 /* HDMFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1A21B5268DD0095F3B7 /* HDMFunction.m */; };
 		75A7F1A61B5268DD0095F3B7 /* HDMGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1A41B5268DD0095F3B7 /* HDMGlobal.m */; };
+		75A7F1F61B526DEE0095F3B7 /* HDMBannerProductManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1A91B526DEE0095F3B7 /* HDMBannerProductManager.m */; };
+		75A7F1F71B526DEE0095F3B7 /* HDMBookmarkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1AB1B526DEE0095F3B7 /* HDMBookmarkManager.m */; };
+		75A7F1F81B526DEE0095F3B7 /* HDMChannelClassManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1AD1B526DEE0095F3B7 /* HDMChannelClassManager.m */; };
+		75A7F1F91B526DEE0095F3B7 /* HDMChannelClassProductManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1AF1B526DEE0095F3B7 /* HDMChannelClassProductManager.m */; };
+		75A7F1FA1B526DEE0095F3B7 /* HDMChannelCurrencyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1B11B526DEE0095F3B7 /* HDMChannelCurrencyManager.m */; };
+		75A7F1FB1B526DEE0095F3B7 /* HDMChannelDemandProductManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1B31B526DEE0095F3B7 /* HDMChannelDemandProductManager.m */; };
+		75A7F1FC1B526DEE0095F3B7 /* HDMChannelLastestProductManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1B51B526DEE0095F3B7 /* HDMChannelLastestProductManager.m */; };
+		75A7F1FD1B526DEE0095F3B7 /* HDMChannelPackageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1B71B526DEE0095F3B7 /* HDMChannelPackageManager.m */; };
+		75A7F1FE1B526DEE0095F3B7 /* HDMChannelReMenFirstManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1B91B526DEE0095F3B7 /* HDMChannelReMenFirstManager.m */; };
+		75A7F1FF1B526DEE0095F3B7 /* HDMChannelTagManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1BB1B526DEE0095F3B7 /* HDMChannelTagManager.m */; };
+		75A7F2001B526DEE0095F3B7 /* HDMCheckFlagManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1BD1B526DEE0095F3B7 /* HDMCheckFlagManager.m */; };
+		75A7F2011B526DEE0095F3B7 /* HDMDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1BF1B526DEE0095F3B7 /* HDMDownloadManager.m */; };
+		75A7F2021B526DEE0095F3B7 /* HDMDownloadProductManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1C11B526DEE0095F3B7 /* HDMDownloadProductManager.m */; };
+		75A7F2031B526DEE0095F3B7 /* HDMDownloadProductSectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1C31B526DEE0095F3B7 /* HDMDownloadProductSectionManager.m */; };
+		75A7F2041B526DEE0095F3B7 /* HDMDownloadSectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1C51B526DEE0095F3B7 /* HDMDownloadSectionManager.m */; };
+		75A7F2051B526DEE0095F3B7 /* HDMFavorProductManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1C71B526DEE0095F3B7 /* HDMFavorProductManager.m */; };
+		75A7F2061B526DEE0095F3B7 /* HDMHotkeyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1C91B526DEE0095F3B7 /* HDMHotkeyManager.m */; };
+		75A7F2071B526DEE0095F3B7 /* HDMHotkeyProductManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1CB1B526DEE0095F3B7 /* HDMHotkeyProductManager.m */; };
+		75A7F2081B526DEE0095F3B7 /* HDMLocalDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1CD1B526DEE0095F3B7 /* HDMLocalDownloadManager.m */; };
+		75A7F2091B526DEE0095F3B7 /* HDMPackageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1CF1B526DEE0095F3B7 /* HDMPackageManager.m */; };
+		75A7F20A1B526DEE0095F3B7 /* HDMProductCommentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1D11B526DEE0095F3B7 /* HDMProductCommentManager.m */; };
+		75A7F20B1B526DEE0095F3B7 /* HDMProductManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1D31B526DEE0095F3B7 /* HDMProductManager.m */; };
+		75A7F20C1B526DEE0095F3B7 /* HDMProductSectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1D51B526DEE0095F3B7 /* HDMProductSectionManager.m */; };
+		75A7F20D1B526DEE0095F3B7 /* HDMProductSelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1D71B526DEE0095F3B7 /* HDMProductSelManager.m */; };
+		75A7F20E1B526DEE0095F3B7 /* HDMProductSimilarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1D91B526DEE0095F3B7 /* HDMProductSimilarManager.m */; };
+		75A7F20F1B526DEE0095F3B7 /* HDMProductWithMenuManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1DB1B526DEE0095F3B7 /* HDMProductWithMenuManager.m */; };
+		75A7F2101B526DEE0095F3B7 /* HDMRankManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1DD1B526DEE0095F3B7 /* HDMRankManager.m */; };
+		75A7F2111B526DEE0095F3B7 /* HDMRecommendProductManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1DF1B526DEE0095F3B7 /* HDMRecommendProductManager.m */; };
+		75A7F2121B526DEE0095F3B7 /* HDMRecordProductManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1E11B526DEE0095F3B7 /* HDMRecordProductManager.m */; };
+		75A7F2131B526DEE0095F3B7 /* HDMSearchAboutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1E31B526DEE0095F3B7 /* HDMSearchAboutManager.m */; };
+		75A7F2141B526DEE0095F3B7 /* HDMSectionOrderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1E51B526DEE0095F3B7 /* HDMSectionOrderManager.m */; };
+		75A7F2151B526DEE0095F3B7 /* HDMUserCommentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1E71B526DEE0095F3B7 /* HDMUserCommentManager.m */; };
+		75A7F2161B526DEE0095F3B7 /* HDMUserGetCreditManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1E91B526DEE0095F3B7 /* HDMUserGetCreditManager.m */; };
+		75A7F2171B526DEE0095F3B7 /* HDMUserGetCurrencyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1EB1B526DEE0095F3B7 /* HDMUserGetCurrencyManager.m */; };
+		75A7F2181B526DEE0095F3B7 /* HDMUserPackageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1ED1B526DEE0095F3B7 /* HDMUserPackageManager.m */; };
+		75A7F2191B526DEE0095F3B7 /* HDMUserSetCreditManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1EF1B526DEE0095F3B7 /* HDMUserSetCreditManager.m */; };
+		75A7F21A1B526DEE0095F3B7 /* HDMUserSetCurrencyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1F11B526DEE0095F3B7 /* HDMUserSetCurrencyManager.m */; };
+		75A7F21B1B526DEE0095F3B7 /* HDMUserZoneManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1F31B526DEE0095F3B7 /* HDMUserZoneManager.m */; };
+		75A7F21C1B526DEE0095F3B7 /* HDMWapPushManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1F51B526DEE0095F3B7 /* HDMWapPushManager.m */; };
+		75A7F21F1B526E370095F3B7 /* BCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F21E1B526E370095F3B7 /* BCManager.m */; };
 		75D9A88C1B4E6C4500C4CB34 /* CacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D9A88B1B4E6C4500C4CB34 /* CacheManager.m */; };
 		75D9A88F1B4E70C600C4CB34 /* SDCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D9A88E1B4E70C600C4CB34 /* SDCache.m */; };
 		75DCFBEE1B4C11AC00CAA349 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DCFBED1B4C11AC00CAA349 /* BaseViewController.m */; };
@@ -184,6 +224,86 @@
 		75A7F1A21B5268DD0095F3B7 /* HDMFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMFunction.m; sourceTree = "<group>"; };
 		75A7F1A31B5268DD0095F3B7 /* HDMGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMGlobal.h; sourceTree = "<group>"; };
 		75A7F1A41B5268DD0095F3B7 /* HDMGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMGlobal.m; sourceTree = "<group>"; };
+		75A7F1A81B526DEE0095F3B7 /* HDMBannerProductManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMBannerProductManager.h; sourceTree = "<group>"; };
+		75A7F1A91B526DEE0095F3B7 /* HDMBannerProductManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMBannerProductManager.m; sourceTree = "<group>"; };
+		75A7F1AA1B526DEE0095F3B7 /* HDMBookmarkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMBookmarkManager.h; sourceTree = "<group>"; };
+		75A7F1AB1B526DEE0095F3B7 /* HDMBookmarkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMBookmarkManager.m; sourceTree = "<group>"; };
+		75A7F1AC1B526DEE0095F3B7 /* HDMChannelClassManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMChannelClassManager.h; sourceTree = "<group>"; };
+		75A7F1AD1B526DEE0095F3B7 /* HDMChannelClassManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMChannelClassManager.m; sourceTree = "<group>"; };
+		75A7F1AE1B526DEE0095F3B7 /* HDMChannelClassProductManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMChannelClassProductManager.h; sourceTree = "<group>"; };
+		75A7F1AF1B526DEE0095F3B7 /* HDMChannelClassProductManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMChannelClassProductManager.m; sourceTree = "<group>"; };
+		75A7F1B01B526DEE0095F3B7 /* HDMChannelCurrencyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMChannelCurrencyManager.h; sourceTree = "<group>"; };
+		75A7F1B11B526DEE0095F3B7 /* HDMChannelCurrencyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMChannelCurrencyManager.m; sourceTree = "<group>"; };
+		75A7F1B21B526DEE0095F3B7 /* HDMChannelDemandProductManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMChannelDemandProductManager.h; sourceTree = "<group>"; };
+		75A7F1B31B526DEE0095F3B7 /* HDMChannelDemandProductManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMChannelDemandProductManager.m; sourceTree = "<group>"; };
+		75A7F1B41B526DEE0095F3B7 /* HDMChannelLastestProductManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMChannelLastestProductManager.h; sourceTree = "<group>"; };
+		75A7F1B51B526DEE0095F3B7 /* HDMChannelLastestProductManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMChannelLastestProductManager.m; sourceTree = "<group>"; };
+		75A7F1B61B526DEE0095F3B7 /* HDMChannelPackageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMChannelPackageManager.h; sourceTree = "<group>"; };
+		75A7F1B71B526DEE0095F3B7 /* HDMChannelPackageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMChannelPackageManager.m; sourceTree = "<group>"; };
+		75A7F1B81B526DEE0095F3B7 /* HDMChannelReMenFirstManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMChannelReMenFirstManager.h; sourceTree = "<group>"; };
+		75A7F1B91B526DEE0095F3B7 /* HDMChannelReMenFirstManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMChannelReMenFirstManager.m; sourceTree = "<group>"; };
+		75A7F1BA1B526DEE0095F3B7 /* HDMChannelTagManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMChannelTagManager.h; sourceTree = "<group>"; };
+		75A7F1BB1B526DEE0095F3B7 /* HDMChannelTagManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMChannelTagManager.m; sourceTree = "<group>"; };
+		75A7F1BC1B526DEE0095F3B7 /* HDMCheckFlagManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMCheckFlagManager.h; sourceTree = "<group>"; };
+		75A7F1BD1B526DEE0095F3B7 /* HDMCheckFlagManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMCheckFlagManager.m; sourceTree = "<group>"; };
+		75A7F1BE1B526DEE0095F3B7 /* HDMDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMDownloadManager.h; sourceTree = "<group>"; };
+		75A7F1BF1B526DEE0095F3B7 /* HDMDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMDownloadManager.m; sourceTree = "<group>"; };
+		75A7F1C01B526DEE0095F3B7 /* HDMDownloadProductManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMDownloadProductManager.h; sourceTree = "<group>"; };
+		75A7F1C11B526DEE0095F3B7 /* HDMDownloadProductManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMDownloadProductManager.m; sourceTree = "<group>"; };
+		75A7F1C21B526DEE0095F3B7 /* HDMDownloadProductSectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMDownloadProductSectionManager.h; sourceTree = "<group>"; };
+		75A7F1C31B526DEE0095F3B7 /* HDMDownloadProductSectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMDownloadProductSectionManager.m; sourceTree = "<group>"; };
+		75A7F1C41B526DEE0095F3B7 /* HDMDownloadSectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMDownloadSectionManager.h; sourceTree = "<group>"; };
+		75A7F1C51B526DEE0095F3B7 /* HDMDownloadSectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMDownloadSectionManager.m; sourceTree = "<group>"; };
+		75A7F1C61B526DEE0095F3B7 /* HDMFavorProductManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMFavorProductManager.h; sourceTree = "<group>"; };
+		75A7F1C71B526DEE0095F3B7 /* HDMFavorProductManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMFavorProductManager.m; sourceTree = "<group>"; };
+		75A7F1C81B526DEE0095F3B7 /* HDMHotkeyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMHotkeyManager.h; sourceTree = "<group>"; };
+		75A7F1C91B526DEE0095F3B7 /* HDMHotkeyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMHotkeyManager.m; sourceTree = "<group>"; };
+		75A7F1CA1B526DEE0095F3B7 /* HDMHotkeyProductManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMHotkeyProductManager.h; sourceTree = "<group>"; };
+		75A7F1CB1B526DEE0095F3B7 /* HDMHotkeyProductManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMHotkeyProductManager.m; sourceTree = "<group>"; };
+		75A7F1CC1B526DEE0095F3B7 /* HDMLocalDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMLocalDownloadManager.h; sourceTree = "<group>"; };
+		75A7F1CD1B526DEE0095F3B7 /* HDMLocalDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMLocalDownloadManager.m; sourceTree = "<group>"; };
+		75A7F1CE1B526DEE0095F3B7 /* HDMPackageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMPackageManager.h; sourceTree = "<group>"; };
+		75A7F1CF1B526DEE0095F3B7 /* HDMPackageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMPackageManager.m; sourceTree = "<group>"; };
+		75A7F1D01B526DEE0095F3B7 /* HDMProductCommentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMProductCommentManager.h; sourceTree = "<group>"; };
+		75A7F1D11B526DEE0095F3B7 /* HDMProductCommentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMProductCommentManager.m; sourceTree = "<group>"; };
+		75A7F1D21B526DEE0095F3B7 /* HDMProductManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMProductManager.h; sourceTree = "<group>"; };
+		75A7F1D31B526DEE0095F3B7 /* HDMProductManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMProductManager.m; sourceTree = "<group>"; };
+		75A7F1D41B526DEE0095F3B7 /* HDMProductSectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMProductSectionManager.h; sourceTree = "<group>"; };
+		75A7F1D51B526DEE0095F3B7 /* HDMProductSectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMProductSectionManager.m; sourceTree = "<group>"; };
+		75A7F1D61B526DEE0095F3B7 /* HDMProductSelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMProductSelManager.h; sourceTree = "<group>"; };
+		75A7F1D71B526DEE0095F3B7 /* HDMProductSelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMProductSelManager.m; sourceTree = "<group>"; };
+		75A7F1D81B526DEE0095F3B7 /* HDMProductSimilarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMProductSimilarManager.h; sourceTree = "<group>"; };
+		75A7F1D91B526DEE0095F3B7 /* HDMProductSimilarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMProductSimilarManager.m; sourceTree = "<group>"; };
+		75A7F1DA1B526DEE0095F3B7 /* HDMProductWithMenuManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMProductWithMenuManager.h; sourceTree = "<group>"; };
+		75A7F1DB1B526DEE0095F3B7 /* HDMProductWithMenuManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMProductWithMenuManager.m; sourceTree = "<group>"; };
+		75A7F1DC1B526DEE0095F3B7 /* HDMRankManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMRankManager.h; sourceTree = "<group>"; };
+		75A7F1DD1B526DEE0095F3B7 /* HDMRankManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMRankManager.m; sourceTree = "<group>"; };
+		75A7F1DE1B526DEE0095F3B7 /* HDMRecommendProductManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMRecommendProductManager.h; sourceTree = "<group>"; };
+		75A7F1DF1B526DEE0095F3B7 /* HDMRecommendProductManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMRecommendProductManager.m; sourceTree = "<group>"; };
+		75A7F1E01B526DEE0095F3B7 /* HDMRecordProductManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMRecordProductManager.h; sourceTree = "<group>"; };
+		75A7F1E11B526DEE0095F3B7 /* HDMRecordProductManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMRecordProductManager.m; sourceTree = "<group>"; };
+		75A7F1E21B526DEE0095F3B7 /* HDMSearchAboutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMSearchAboutManager.h; sourceTree = "<group>"; };
+		75A7F1E31B526DEE0095F3B7 /* HDMSearchAboutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMSearchAboutManager.m; sourceTree = "<group>"; };
+		75A7F1E41B526DEE0095F3B7 /* HDMSectionOrderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMSectionOrderManager.h; sourceTree = "<group>"; };
+		75A7F1E51B526DEE0095F3B7 /* HDMSectionOrderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMSectionOrderManager.m; sourceTree = "<group>"; };
+		75A7F1E61B526DEE0095F3B7 /* HDMUserCommentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMUserCommentManager.h; sourceTree = "<group>"; };
+		75A7F1E71B526DEE0095F3B7 /* HDMUserCommentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMUserCommentManager.m; sourceTree = "<group>"; };
+		75A7F1E81B526DEE0095F3B7 /* HDMUserGetCreditManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMUserGetCreditManager.h; sourceTree = "<group>"; };
+		75A7F1E91B526DEE0095F3B7 /* HDMUserGetCreditManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMUserGetCreditManager.m; sourceTree = "<group>"; };
+		75A7F1EA1B526DEE0095F3B7 /* HDMUserGetCurrencyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMUserGetCurrencyManager.h; sourceTree = "<group>"; };
+		75A7F1EB1B526DEE0095F3B7 /* HDMUserGetCurrencyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMUserGetCurrencyManager.m; sourceTree = "<group>"; };
+		75A7F1EC1B526DEE0095F3B7 /* HDMUserPackageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMUserPackageManager.h; sourceTree = "<group>"; };
+		75A7F1ED1B526DEE0095F3B7 /* HDMUserPackageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMUserPackageManager.m; sourceTree = "<group>"; };
+		75A7F1EE1B526DEE0095F3B7 /* HDMUserSetCreditManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMUserSetCreditManager.h; sourceTree = "<group>"; };
+		75A7F1EF1B526DEE0095F3B7 /* HDMUserSetCreditManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMUserSetCreditManager.m; sourceTree = "<group>"; };
+		75A7F1F01B526DEE0095F3B7 /* HDMUserSetCurrencyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMUserSetCurrencyManager.h; sourceTree = "<group>"; };
+		75A7F1F11B526DEE0095F3B7 /* HDMUserSetCurrencyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMUserSetCurrencyManager.m; sourceTree = "<group>"; };
+		75A7F1F21B526DEE0095F3B7 /* HDMUserZoneManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMUserZoneManager.h; sourceTree = "<group>"; };
+		75A7F1F31B526DEE0095F3B7 /* HDMUserZoneManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMUserZoneManager.m; sourceTree = "<group>"; };
+		75A7F1F41B526DEE0095F3B7 /* HDMWapPushManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMWapPushManager.h; sourceTree = "<group>"; };
+		75A7F1F51B526DEE0095F3B7 /* HDMWapPushManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMWapPushManager.m; sourceTree = "<group>"; };
+		75A7F21D1B526E370095F3B7 /* BCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCManager.h; sourceTree = "<group>"; };
+		75A7F21E1B526E370095F3B7 /* BCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCManager.m; sourceTree = "<group>"; };
 		75D9A88A1B4E6C4500C4CB34 /* CacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheManager.h; sourceTree = "<group>"; };
 		75D9A88B1B4E6C4500C4CB34 /* CacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheManager.m; sourceTree = "<group>"; };
 		75D9A88D1B4E70C600C4CB34 /* SDCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCache.h; sourceTree = "<group>"; };
@@ -391,6 +511,93 @@
 			path = CustomViewCase;
 			sourceTree = "<group>";
 		};
+		75A7F1A71B526DEE0095F3B7 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				75A7F21D1B526E370095F3B7 /* BCManager.h */,
+				75A7F21E1B526E370095F3B7 /* BCManager.m */,
+				75A7F1A81B526DEE0095F3B7 /* HDMBannerProductManager.h */,
+				75A7F1A91B526DEE0095F3B7 /* HDMBannerProductManager.m */,
+				75A7F1AA1B526DEE0095F3B7 /* HDMBookmarkManager.h */,
+				75A7F1AB1B526DEE0095F3B7 /* HDMBookmarkManager.m */,
+				75A7F1AC1B526DEE0095F3B7 /* HDMChannelClassManager.h */,
+				75A7F1AD1B526DEE0095F3B7 /* HDMChannelClassManager.m */,
+				75A7F1AE1B526DEE0095F3B7 /* HDMChannelClassProductManager.h */,
+				75A7F1AF1B526DEE0095F3B7 /* HDMChannelClassProductManager.m */,
+				75A7F1B01B526DEE0095F3B7 /* HDMChannelCurrencyManager.h */,
+				75A7F1B11B526DEE0095F3B7 /* HDMChannelCurrencyManager.m */,
+				75A7F1B21B526DEE0095F3B7 /* HDMChannelDemandProductManager.h */,
+				75A7F1B31B526DEE0095F3B7 /* HDMChannelDemandProductManager.m */,
+				75A7F1B41B526DEE0095F3B7 /* HDMChannelLastestProductManager.h */,
+				75A7F1B51B526DEE0095F3B7 /* HDMChannelLastestProductManager.m */,
+				75A7F1B61B526DEE0095F3B7 /* HDMChannelPackageManager.h */,
+				75A7F1B71B526DEE0095F3B7 /* HDMChannelPackageManager.m */,
+				75A7F1B81B526DEE0095F3B7 /* HDMChannelReMenFirstManager.h */,
+				75A7F1B91B526DEE0095F3B7 /* HDMChannelReMenFirstManager.m */,
+				75A7F1BA1B526DEE0095F3B7 /* HDMChannelTagManager.h */,
+				75A7F1BB1B526DEE0095F3B7 /* HDMChannelTagManager.m */,
+				75A7F1BC1B526DEE0095F3B7 /* HDMCheckFlagManager.h */,
+				75A7F1BD1B526DEE0095F3B7 /* HDMCheckFlagManager.m */,
+				75A7F1BE1B526DEE0095F3B7 /* HDMDownloadManager.h */,
+				75A7F1BF1B526DEE0095F3B7 /* HDMDownloadManager.m */,
+				75A7F1C01B526DEE0095F3B7 /* HDMDownloadProductManager.h */,
+				75A7F1C11B526DEE0095F3B7 /* HDMDownloadProductManager.m */,
+				75A7F1C21B526DEE0095F3B7 /* HDMDownloadProductSectionManager.h */,
+				75A7F1C31B526DEE0095F3B7 /* HDMDownloadProductSectionManager.m */,
+				75A7F1C41B526DEE0095F3B7 /* HDMDownloadSectionManager.h */,
+				75A7F1C51B526DEE0095F3B7 /* HDMDownloadSectionManager.m */,
+				75A7F1C61B526DEE0095F3B7 /* HDMFavorProductManager.h */,
+				75A7F1C71B526DEE0095F3B7 /* HDMFavorProductManager.m */,
+				75A7F1C81B526DEE0095F3B7 /* HDMHotkeyManager.h */,
+				75A7F1C91B526DEE0095F3B7 /* HDMHotkeyManager.m */,
+				75A7F1CA1B526DEE0095F3B7 /* HDMHotkeyProductManager.h */,
+				75A7F1CB1B526DEE0095F3B7 /* HDMHotkeyProductManager.m */,
+				75A7F1CC1B526DEE0095F3B7 /* HDMLocalDownloadManager.h */,
+				75A7F1CD1B526DEE0095F3B7 /* HDMLocalDownloadManager.m */,
+				75A7F1CE1B526DEE0095F3B7 /* HDMPackageManager.h */,
+				75A7F1CF1B526DEE0095F3B7 /* HDMPackageManager.m */,
+				75A7F1D01B526DEE0095F3B7 /* HDMProductCommentManager.h */,
+				75A7F1D11B526DEE0095F3B7 /* HDMProductCommentManager.m */,
+				75A7F1D21B526DEE0095F3B7 /* HDMProductManager.h */,
+				75A7F1D31B526DEE0095F3B7 /* HDMProductManager.m */,
+				75A7F1D41B526DEE0095F3B7 /* HDMProductSectionManager.h */,
+				75A7F1D51B526DEE0095F3B7 /* HDMProductSectionManager.m */,
+				75A7F1D61B526DEE0095F3B7 /* HDMProductSelManager.h */,
+				75A7F1D71B526DEE0095F3B7 /* HDMProductSelManager.m */,
+				75A7F1D81B526DEE0095F3B7 /* HDMProductSimilarManager.h */,
+				75A7F1D91B526DEE0095F3B7 /* HDMProductSimilarManager.m */,
+				75A7F1DA1B526DEE0095F3B7 /* HDMProductWithMenuManager.h */,
+				75A7F1DB1B526DEE0095F3B7 /* HDMProductWithMenuManager.m */,
+				75A7F1DC1B526DEE0095F3B7 /* HDMRankManager.h */,
+				75A7F1DD1B526DEE0095F3B7 /* HDMRankManager.m */,
+				75A7F1DE1B526DEE0095F3B7 /* HDMRecommendProductManager.h */,
+				75A7F1DF1B526DEE0095F3B7 /* HDMRecommendProductManager.m */,
+				75A7F1E01B526DEE0095F3B7 /* HDMRecordProductManager.h */,
+				75A7F1E11B526DEE0095F3B7 /* HDMRecordProductManager.m */,
+				75A7F1E21B526DEE0095F3B7 /* HDMSearchAboutManager.h */,
+				75A7F1E31B526DEE0095F3B7 /* HDMSearchAboutManager.m */,
+				75A7F1E41B526DEE0095F3B7 /* HDMSectionOrderManager.h */,
+				75A7F1E51B526DEE0095F3B7 /* HDMSectionOrderManager.m */,
+				75A7F1E61B526DEE0095F3B7 /* HDMUserCommentManager.h */,
+				75A7F1E71B526DEE0095F3B7 /* HDMUserCommentManager.m */,
+				75A7F1E81B526DEE0095F3B7 /* HDMUserGetCreditManager.h */,
+				75A7F1E91B526DEE0095F3B7 /* HDMUserGetCreditManager.m */,
+				75A7F1EA1B526DEE0095F3B7 /* HDMUserGetCurrencyManager.h */,
+				75A7F1EB1B526DEE0095F3B7 /* HDMUserGetCurrencyManager.m */,
+				75A7F1EC1B526DEE0095F3B7 /* HDMUserPackageManager.h */,
+				75A7F1ED1B526DEE0095F3B7 /* HDMUserPackageManager.m */,
+				75A7F1EE1B526DEE0095F3B7 /* HDMUserSetCreditManager.h */,
+				75A7F1EF1B526DEE0095F3B7 /* HDMUserSetCreditManager.m */,
+				75A7F1F01B526DEE0095F3B7 /* HDMUserSetCurrencyManager.h */,
+				75A7F1F11B526DEE0095F3B7 /* HDMUserSetCurrencyManager.m */,
+				75A7F1F21B526DEE0095F3B7 /* HDMUserZoneManager.h */,
+				75A7F1F31B526DEE0095F3B7 /* HDMUserZoneManager.m */,
+				75A7F1F41B526DEE0095F3B7 /* HDMWapPushManager.h */,
+				75A7F1F51B526DEE0095F3B7 /* HDMWapPushManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		75ACC1E01B48E666001776AD /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -463,6 +670,7 @@
 		75ACC1E21B48E73E001776AD /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				75A7F1A71B526DEE0095F3B7 /* Manager */,
 				75A7F1A11B5268DD0095F3B7 /* HDMFunction.h */,
 				75A7F1A21B5268DD0095F3B7 /* HDMFunction.m */,
 				75A7F1A31B5268DD0095F3B7 /* HDMGlobal.h */,
@@ -756,67 +964,107 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75A7F21F1B526E370095F3B7 /* BCManager.m in Sources */,
 				75A7F1771B5259850095F3B7 /* HDMCurrency.m in Sources */,
 				75A7F1731B5259850095F3B7 /* HDMClass.m in Sources */,
+				75A7F2161B526DEE0095F3B7 /* HDMUserGetCreditManager.m in Sources */,
 				75A7F1511B5251960095F3B7 /* 文章.md in Sources */,
 				75A7F1951B5264890095F3B7 /* NSData+BCCategory.m in Sources */,
+				75A7F1FF1B526DEE0095F3B7 /* HDMChannelTagManager.m in Sources */,
 				75A7F17F1B5259850095F3B7 /* HDMSetting.m in Sources */,
 				75A7F1501B5251960095F3B7 /* 工具.md in Sources */,
+				75A7F2111B526DEE0095F3B7 /* HDMRecommendProductManager.m in Sources */,
+				75A7F2031B526DEE0095F3B7 /* HDMDownloadProductSectionManager.m in Sources */,
+				75A7F1FA1B526DEE0095F3B7 /* HDMChannelCurrencyManager.m in Sources */,
+				75A7F2131B526DEE0095F3B7 /* HDMSearchAboutManager.m in Sources */,
 				75DCFBFE1B4C130D00CAA349 /* OneVC.m in Sources */,
 				75A7F19C1B5265800095F3B7 /* BCConfigure.m in Sources */,
+				75A7F2101B526DEE0095F3B7 /* HDMRankManager.m in Sources */,
+				75A7F2081B526DEE0095F3B7 /* HDMLocalDownloadManager.m in Sources */,
 				75EC992B1B492EF400A5388A /* UIImageView+BCCategory.m in Sources */,
 				75EC99191B492DF000A5388A /* UIView+BCCategory.m in Sources */,
 				751707CF1B4620F6007F1AE2 /* AppDelegate.m in Sources */,
 				75A7F1781B5259850095F3B7 /* HDMFeedback.m in Sources */,
+				75A7F2191B526DEE0095F3B7 /* HDMUserSetCreditManager.m in Sources */,
+				75A7F1F91B526DEE0095F3B7 /* HDMChannelClassProductManager.m in Sources */,
 				75A7F1A61B5268DD0095F3B7 /* HDMGlobal.m in Sources */,
+				75A7F2121B526DEE0095F3B7 /* HDMRecordProductManager.m in Sources */,
 				75A7F1961B5264890095F3B7 /* NSDate+BCCategory.m in Sources */,
+				75A7F20C1B526DEE0095F3B7 /* HDMProductSectionManager.m in Sources */,
 				75A7F1531B5251960095F3B7 /* 管理.md in Sources */,
 				75EC99161B492DD700A5388A /* NSObject+BCCategory.m in Sources */,
+				75A7F21A1B526DEE0095F3B7 /* HDMUserSetCurrencyManager.m in Sources */,
 				75DCFBEE1B4C11AC00CAA349 /* BaseViewController.m in Sources */,
+				75A7F21B1B526DEE0095F3B7 /* HDMUserZoneManager.m in Sources */,
 				75A7F17B1B5259850095F3B7 /* HDMPackage.m in Sources */,
 				75A7F1841B525A520095F3B7 /* BCModel.m in Sources */,
 				75DCFBF41B4C11DF00CAA349 /* BaseTabBarController.m in Sources */,
+				75A7F2071B526DEE0095F3B7 /* HDMHotkeyProductManager.m in Sources */,
+				75A7F2171B526DEE0095F3B7 /* HDMUserGetCurrencyManager.m in Sources */,
 				75A7F1751B5259850095F3B7 /* HDMComment.m in Sources */,
 				75A7F1801B5259850095F3B7 /* HDMUser.m in Sources */,
 				75DCFC0D1B4C145900CAA349 /* FourVC.m in Sources */,
+				75A7F2151B526DEE0095F3B7 /* HDMUserCommentManager.m in Sources */,
 				75A7F18C1B525F6F0095F3B7 /* BCNetwork.m in Sources */,
 				75A7F1871B525E710095F3B7 /* HDMNetwork.m in Sources */,
+				75A7F2141B526DEE0095F3B7 /* HDMSectionOrderManager.m in Sources */,
 				75A7F1521B5251960095F3B7 /* 构架.md in Sources */,
 				75EC99281B492ECB00A5388A /* UITextField+BCCategory.m in Sources */,
+				75A7F2011B526DEE0095F3B7 /* HDMDownloadManager.m in Sources */,
+				75A7F21C1B526DEE0095F3B7 /* HDMWapPushManager.m in Sources */,
 				75DCFC031B4C137300CAA349 /* TwoVC.m in Sources */,
 				75D9A88C1B4E6C4500C4CB34 /* CacheManager.m in Sources */,
 				75EC991F1B492E1E00A5388A /* NSData+BCCategory.m in Sources */,
 				75DCFC081B4C13CC00CAA349 /* ThreeVC.m in Sources */,
 				75A7F1741B5259850095F3B7 /* HDMClient.m in Sources */,
 				75A7F1791B5259850095F3B7 /* HDMHotkey.m in Sources */,
+				75A7F2181B526DEE0095F3B7 /* HDMUserPackageManager.m in Sources */,
 				75EC99251B492EA600A5388A /* UILabel+BCCategory.m in Sources */,
 				75EC992E1B492F2800A5388A /* UIButton+BCCategory.m in Sources */,
 				75D9A88F1B4E70C600C4CB34 /* SDCache.m in Sources */,
 				75EC991C1B492E0D00A5388A /* UIColor+BCCategory.m in Sources */,
 				75EC99311B492F7700A5388A /* UIViewController+BCCategory.m in Sources */,
 				75A7F14E1B5251960095F3B7 /* 备份.md in Sources */,
+				75A7F20B1B526DEE0095F3B7 /* HDMProductManager.m in Sources */,
 				7578B1261B4F6B8600CAFC40 /* CellModel.m in Sources */,
 				75A7F14F1B5251960095F3B7 /* 审核.md in Sources */,
+				75A7F2001B526DEE0095F3B7 /* HDMCheckFlagManager.m in Sources */,
+				75A7F20E1B526DEE0095F3B7 /* HDMProductSimilarManager.m in Sources */,
 				75A7F17C1B5259850095F3B7 /* HDMParentClass.m in Sources */,
 				75EC99221B492E3000A5388A /* NSString+BCCategory.m in Sources */,
 				7582FBB81B4FCC5600A3766B /* WinXinFindVC.m in Sources */,
 				75A7F1541B5251960095F3B7 /* 经验.md in Sources */,
 				75A7F19F1B52662A0095F3B7 /* DBTool.m in Sources */,
 				75DCFC121B4C14DD00CAA349 /* FiveVC.m in Sources */,
+				75A7F20F1B526DEE0095F3B7 /* HDMProductWithMenuManager.m in Sources */,
 				75A7F17E1B5259850095F3B7 /* HDMSection.m in Sources */,
 				75A7F1811B5259850095F3B7 /* HDMZone.m in Sources */,
 				75A7F14C1B5251960095F3B7 /* TestViewController.m in Sources */,
+				75A7F1FB1B526DEE0095F3B7 /* HDMChannelDemandProductManager.m in Sources */,
 				75DCFC291B4D740D00CAA349 /* Config.m in Sources */,
 				75A7F1761B5259850095F3B7 /* HDMCredit.m in Sources */,
+				75A7F1FD1B526DEE0095F3B7 /* HDMChannelPackageManager.m in Sources */,
+				75A7F1F71B526DEE0095F3B7 /* HDMBookmarkManager.m in Sources */,
+				75A7F2061B526DEE0095F3B7 /* HDMHotkeyManager.m in Sources */,
 				75A7F17A1B5259850095F3B7 /* HDMOrder.m in Sources */,
+				75A7F1F81B526DEE0095F3B7 /* HDMChannelClassManager.m in Sources */,
+				75A7F2041B526DEE0095F3B7 /* HDMDownloadSectionManager.m in Sources */,
+				75A7F1FC1B526DEE0095F3B7 /* HDMChannelLastestProductManager.m in Sources */,
 				751707CC1B4620F6007F1AE2 /* main.m in Sources */,
 				75A7F1481B5251960095F3B7 /* CustomViewCaseController.m in Sources */,
+				75A7F20D1B526DEE0095F3B7 /* HDMProductSelManager.m in Sources */,
+				75A7F2051B526DEE0095F3B7 /* HDMFavorProductManager.m in Sources */,
+				75A7F20A1B526DEE0095F3B7 /* HDMProductCommentManager.m in Sources */,
 				75DCFBF11B4C11CC00CAA349 /* BaseNavigationController.m in Sources */,
 				75A7F19B1B5265800095F3B7 /* BCArchitecture.m in Sources */,
+				75A7F1FE1B526DEE0095F3B7 /* HDMChannelReMenFirstManager.m in Sources */,
 				7582FBB11B4FA1CD00A3766B /* UIImage+BCCategory.m in Sources */,
 				75A7F14A1B5251960095F3B7 /* CutomViewCase1.m in Sources */,
 				75A7F17D1B5259850095F3B7 /* HDMProduct.m in Sources */,
 				75A7F1A51B5268DD0095F3B7 /* HDMFunction.m in Sources */,
+				75A7F1F61B526DEE0095F3B7 /* HDMBannerProductManager.m in Sources */,
+				75A7F2091B526DEE0095F3B7 /* HDMPackageManager.m in Sources */,
+				75A7F2021B526DEE0095F3B7 /* HDMDownloadProductManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
