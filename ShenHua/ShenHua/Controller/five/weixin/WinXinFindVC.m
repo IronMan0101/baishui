@@ -68,6 +68,29 @@
     self.tableView.tableHeaderView = headerView;
     //添加
     [self.view addSubview:self.tableView];
+
+    //
+    [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
+        
+        //make.center.equalTo(self.view);            //居中布局
+        //make.size.mas_equalTo(CGSizeMake(400,400));//大小固定400，400
+        // make.edges.equalTo(self.view);              //跟view一样宽高
+        
+        make.edges.equalTo(self.view).with.insets(UIEdgeInsetsMake(10, 10, 10, 10));//边缘都小于10
+        
+        /* 等价于
+         make.top.equalTo(sv).with.offset(10);
+         make.left.equalTo(sv).with.offset(10);
+         make.bottom.equalTo(sv).with.offset(-10);
+         make.right.equalTo(sv).with.offset(-10);
+         */
+        
+        
+        /* make.top.left.bottom.and.right.equalTo(self.view).with.insets(UIEdgeInsetsMake(10, 10, 10, 10));*/
+        
+        //这里有意思的地方是and和with 其实这两个函数什么事情都没做
+        
+    }];
 }
 
 
@@ -138,28 +161,28 @@
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
-/**
- *  默认横屏
- *
- *  @param interfaceOrientation <#interfaceOrientation description#>
- *
- *  @return <#return value description#>
- */
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
-}
-
--(NSUInteger)supportedInterfaceOrientations
-{
-    return UIInterfaceOrientationMaskAllButUpsideDown;
-}
-
--(BOOL)shouldAutorotate
-{
-    return YES;
-}
+///**
+// *  默认横屏
+// *
+// *  @param interfaceOrientation <#interfaceOrientation description#>
+// *
+// *  @return <#return value description#>
+// */
+//
+//- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+//{
+//    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+//}
+//
+//-(NSUInteger)supportedInterfaceOrientations
+//{
+//    return UIInterfaceOrientationMaskAllButUpsideDown;
+//}
+//
+//-(BOOL)shouldAutorotate
+//{
+//    return YES;
+//}
 
 
 

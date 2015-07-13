@@ -69,6 +69,8 @@
     self.tableView.tableHeaderView = headerView;
     //添加
     [self.view addSubview:self.tableView];
+    
+  
 }
 
 

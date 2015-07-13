@@ -11,6 +11,7 @@
 		751707CF1B4620F6007F1AE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 751707CE1B4620F6007F1AE2 /* AppDelegate.m */; };
 		751707D71B4620F6007F1AE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751707D61B4620F6007F1AE2 /* Images.xcassets */; };
 		751707E61B4620F6007F1AE2 /* ShenHuaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 751707E51B4620F6007F1AE2 /* ShenHuaTests.m */; };
+		7577AA271B53B931001A4E75 /* Masonry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7577AA261B53B931001A4E75 /* Masonry.jpg */; };
 		7578B1261B4F6B8600CAFC40 /* CellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7578B1251B4F6B8600CAFC40 /* CellModel.m */; };
 		7582FBB11B4FA1CD00A3766B /* UIImage+BCCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7582FBB01B4FA1CD00A3766B /* UIImage+BCCategory.m */; };
 		7582FBB41B4FCC0400A3766B /* 微信-发现.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7582FBB31B4FCC0400A3766B /* 微信-发现.jpg */; };
@@ -145,6 +146,7 @@
 		751707DF1B4620F6007F1AE2 /* ShenHuaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShenHuaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		751707E41B4620F6007F1AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		751707E51B4620F6007F1AE2 /* ShenHuaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShenHuaTests.m; sourceTree = "<group>"; };
+		7577AA261B53B931001A4E75 /* Masonry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Masonry.jpg; sourceTree = "<group>"; };
 		7578B1241B4F6B8600CAFC40 /* CellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellModel.h; sourceTree = "<group>"; };
 		7578B1251B4F6B8600CAFC40 /* CellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellModel.m; sourceTree = "<group>"; };
 		7582FBAF1B4FA1CD00A3766B /* UIImage+BCCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BCCategory.h"; sourceTree = "<group>"; };
@@ -462,6 +464,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7577AA251B53B41B001A4E75 /* MasonryCase */ = {
+			isa = PBXGroup;
+			children = (
+				7577AA261B53B931001A4E75 /* Masonry.jpg */,
+			);
+			path = MasonryCase;
+			sourceTree = "<group>";
+		};
 		7582FBB21B4FBFAD00A3766B /* weixin */ = {
 			isa = PBXGroup;
 			children = (
@@ -483,6 +493,7 @@
 		75A7F1361B5251960095F3B7 /* KnowIOS */ = {
 			isa = PBXGroup;
 			children = (
+				7577AA251B53B41B001A4E75 /* MasonryCase */,
 				75A7F1371B5251960095F3B7 /* CustomViewCase */,
 				75A7F13E1B5251960095F3B7 /* TestViewController.h */,
 				75A7F13F1B5251960095F3B7 /* TestViewController.m */,
@@ -907,6 +918,7 @@
 				75DCFC041B4C137300CAA349 /* TwoVC.xib in Resources */,
 				75DCFC0E1B4C145900CAA349 /* FourVC.xib in Resources */,
 				75A7F14D1B5251960095F3B7 /* TestViewController.xib in Resources */,
+				7577AA271B53B931001A4E75 /* Masonry.jpg in Resources */,
 				75A7F14B1B5251960095F3B7 /* CutomViewCase1.xib in Resources */,
 				75DCFBFF1B4C130D00CAA349 /* OneVC.xib in Resources */,
 				751707D71B4620F6007F1AE2 /* Images.xcassets in Resources */,
