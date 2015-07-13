@@ -12,6 +12,10 @@
 		751707D71B4620F6007F1AE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751707D61B4620F6007F1AE2 /* Images.xcassets */; };
 		751707E61B4620F6007F1AE2 /* ShenHuaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 751707E51B4620F6007F1AE2 /* ShenHuaTests.m */; };
 		7577AA271B53B931001A4E75 /* Masonry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7577AA261B53B931001A4E75 /* Masonry.jpg */; };
+		7577AA2B1B53BDD8001A4E75 /* MasonryCaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7577AA291B53BDD8001A4E75 /* MasonryCaseVC.m */; };
+		7577AA2C1B53BDD8001A4E75 /* MasonryCaseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7577AA2A1B53BDD8001A4E75 /* MasonryCaseVC.xib */; };
+		7577AA301B53C322001A4E75 /* AutoLayoutCaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7577AA2E1B53C322001A4E75 /* AutoLayoutCaseVC.m */; };
+		7577AA311B53C322001A4E75 /* AutoLayoutCaseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7577AA2F1B53C322001A4E75 /* AutoLayoutCaseVC.xib */; };
 		7578B1261B4F6B8600CAFC40 /* CellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7578B1251B4F6B8600CAFC40 /* CellModel.m */; };
 		7582FBB11B4FA1CD00A3766B /* UIImage+BCCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7582FBB01B4FA1CD00A3766B /* UIImage+BCCategory.m */; };
 		7582FBB41B4FCC0400A3766B /* 微信-发现.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7582FBB31B4FCC0400A3766B /* 微信-发现.jpg */; };
@@ -147,6 +151,12 @@
 		751707E41B4620F6007F1AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		751707E51B4620F6007F1AE2 /* ShenHuaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShenHuaTests.m; sourceTree = "<group>"; };
 		7577AA261B53B931001A4E75 /* Masonry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Masonry.jpg; sourceTree = "<group>"; };
+		7577AA281B53BDD8001A4E75 /* MasonryCaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasonryCaseVC.h; sourceTree = "<group>"; };
+		7577AA291B53BDD8001A4E75 /* MasonryCaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasonryCaseVC.m; sourceTree = "<group>"; };
+		7577AA2A1B53BDD8001A4E75 /* MasonryCaseVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasonryCaseVC.xib; sourceTree = "<group>"; };
+		7577AA2D1B53C322001A4E75 /* AutoLayoutCaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutCaseVC.h; sourceTree = "<group>"; };
+		7577AA2E1B53C322001A4E75 /* AutoLayoutCaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutCaseVC.m; sourceTree = "<group>"; };
+		7577AA2F1B53C322001A4E75 /* AutoLayoutCaseVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutoLayoutCaseVC.xib; sourceTree = "<group>"; };
 		7578B1241B4F6B8600CAFC40 /* CellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellModel.h; sourceTree = "<group>"; };
 		7578B1251B4F6B8600CAFC40 /* CellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellModel.m; sourceTree = "<group>"; };
 		7582FBAF1B4FA1CD00A3766B /* UIImage+BCCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BCCategory.h"; sourceTree = "<group>"; };
@@ -468,6 +478,12 @@
 			isa = PBXGroup;
 			children = (
 				7577AA261B53B931001A4E75 /* Masonry.jpg */,
+				7577AA281B53BDD8001A4E75 /* MasonryCaseVC.h */,
+				7577AA291B53BDD8001A4E75 /* MasonryCaseVC.m */,
+				7577AA2A1B53BDD8001A4E75 /* MasonryCaseVC.xib */,
+				7577AA2D1B53C322001A4E75 /* AutoLayoutCaseVC.h */,
+				7577AA2E1B53C322001A4E75 /* AutoLayoutCaseVC.m */,
+				7577AA2F1B53C322001A4E75 /* AutoLayoutCaseVC.xib */,
 			);
 			path = MasonryCase;
 			sourceTree = "<group>";
@@ -917,11 +933,13 @@
 				75A7F1491B5251960095F3B7 /* CustomViewCaseController.xib in Resources */,
 				75DCFC041B4C137300CAA349 /* TwoVC.xib in Resources */,
 				75DCFC0E1B4C145900CAA349 /* FourVC.xib in Resources */,
+				7577AA2C1B53BDD8001A4E75 /* MasonryCaseVC.xib in Resources */,
 				75A7F14D1B5251960095F3B7 /* TestViewController.xib in Resources */,
 				7577AA271B53B931001A4E75 /* Masonry.jpg in Resources */,
 				75A7F14B1B5251960095F3B7 /* CutomViewCase1.xib in Resources */,
 				75DCFBFF1B4C130D00CAA349 /* OneVC.xib in Resources */,
 				751707D71B4620F6007F1AE2 /* Images.xcassets in Resources */,
+				7577AA311B53C322001A4E75 /* AutoLayoutCaseVC.xib in Resources */,
 				7582FBB41B4FCC0400A3766B /* 微信-发现.jpg in Resources */,
 				75DCFC131B4C14DD00CAA349 /* FiveVC.xib in Resources */,
 				7582FBB91B4FCC5600A3766B /* WinXinFindVC.xib in Resources */,
@@ -1004,6 +1022,7 @@
 				75A7F1961B5264890095F3B7 /* NSDate+BCCategory.m in Sources */,
 				75A7F20C1B526DEE0095F3B7 /* HDMProductSectionManager.m in Sources */,
 				75A7F1531B5251960095F3B7 /* 管理.md in Sources */,
+				7577AA2B1B53BDD8001A4E75 /* MasonryCaseVC.m in Sources */,
 				75EC99161B492DD700A5388A /* NSObject+BCCategory.m in Sources */,
 				75A7F21A1B526DEE0095F3B7 /* HDMUserSetCurrencyManager.m in Sources */,
 				75DCFBEE1B4C11AC00CAA349 /* BaseViewController.m in Sources */,
@@ -1049,6 +1068,7 @@
 				75A7F19F1B52662A0095F3B7 /* DBTool.m in Sources */,
 				75DCFC121B4C14DD00CAA349 /* FiveVC.m in Sources */,
 				75A7F20F1B526DEE0095F3B7 /* HDMProductWithMenuManager.m in Sources */,
+				7577AA301B53C322001A4E75 /* AutoLayoutCaseVC.m in Sources */,
 				75A7F17E1B5259850095F3B7 /* HDMSection.m in Sources */,
 				75A7F1811B5259850095F3B7 /* HDMZone.m in Sources */,
 				75A7F14C1B5251960095F3B7 /* TestViewController.m in Sources */,

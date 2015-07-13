@@ -20,6 +20,7 @@
 
 #import "CustomViewCaseController.h"
 #import "HDMChannelTagManager.h"
+#import "MasonryCaseVC.h"
 
 
 
@@ -37,9 +38,21 @@
     self.window.backgroundColor = [UIColor whiteColor];
     
     
-   //  self.window.rootViewController = [self creatTestController];
-       self.window.rootViewController = [self creatMainController:4];
+    self.window.rootViewController = [self creatTestController];
+   //self.window.rootViewController = [self creatMainController:4];
     
+
+    
+
+    [self.window makeKeyAndVisible];
+    return YES;
+}
+
+/**
+ *  测试Manager
+ */
+- (void)creatManager
+{
     HDMChannelTagManager*  _manager = [[HDMChannelTagManager alloc] initWithParameter:nil];
     _manager.channel =2;
     [_manager enquiryListSuccess:^(NSDictionary *codeMsg) {
@@ -49,13 +62,9 @@
     } Failure:^(NSDictionary *codeMsg)
      {
          NSLog(@"获取菜单失败");
-      //   [HDMPushData sharedInstance].pushChannelState = PushChannelStateDefault;
+         //   [HDMPushData sharedInstance].pushChannelState = PushChannelStateDefault;
      }];
     
-    
-
-    [self.window makeKeyAndVisible];
-    return YES;
 }
 
 /**
@@ -64,7 +73,9 @@
 - (UIViewController *)creatTestController
 {
    // TestViewController * testVC=[[TestViewController alloc] initWithNibName:@"TestViewController" bundle:nil];
-    CustomViewCaseController * testVC=[[CustomViewCaseController alloc] initWithNibName:@"CustomViewCaseController" bundle:nil];
+   // CustomViewCaseController * testVC=[[CustomViewCaseController alloc] initWithNibName:@"CustomViewCaseController" bundle:nil];
+     MasonryCaseVC * testVC=[[MasonryCaseVC alloc] initWithNibName:@"MasonryCaseVC" bundle:nil];
+    
     return  testVC;
 }
 
