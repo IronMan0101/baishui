@@ -173,6 +173,7 @@
 		7582FBB51B4FCC5600A3766B /* WinXinFindVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinXinFindVC.h; sourceTree = "<group>"; };
 		7582FBB61B4FCC5600A3766B /* WinXinFindVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WinXinFindVC.m; sourceTree = "<group>"; };
 		7582FBB71B4FCC5600A3766B /* WinXinFindVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WinXinFindVC.xib; sourceTree = "<group>"; };
+		75A4E1FE1B560E03004B7CCA /* Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base.h; sourceTree = "<group>"; };
 		75A7F1381B5251960095F3B7 /* CustomViewCaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewCaseController.h; sourceTree = "<group>"; };
 		75A7F1391B5251960095F3B7 /* CustomViewCaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewCaseController.m; sourceTree = "<group>"; };
 		75A7F13A1B5251960095F3B7 /* CustomViewCaseController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomViewCaseController.xib; sourceTree = "<group>"; };
@@ -787,6 +788,7 @@
 		75DCFBEB1B4C116D00CAA349 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				75A4E1FE1B560E03004B7CCA /* Base.h */,
 				75DCFBEC1B4C11AC00CAA349 /* BaseViewController.h */,
 				75DCFBED1B4C11AC00CAA349 /* BaseViewController.m */,
 				75DCFBEF1B4C11CC00CAA349 /* BaseNavigationController.h */,

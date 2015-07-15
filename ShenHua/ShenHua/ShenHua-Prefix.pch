@@ -25,6 +25,7 @@
 #import "BCCategory.h"
 #import "BCModel.h"
 #import "Macros.h"
+#import "Base.h"
 
 
 
@@ -37,6 +38,7 @@
 #import "BCEncryption.h"
 #import "BCManager.h"
 #import "HDMNetwork.h"
+
 
 
 #endif

@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UITableViewCaseVC : UIViewController
+@interface UITableViewCaseVC : BaseViewController<UITableViewDelegate,UITableViewDataSource>
 
+@property(nonatomic,strong)  UITableView *tableView;
+@property(nonatomic,copy)    NSMutableArray  * context;
 @end
