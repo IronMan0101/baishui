@@ -179,9 +179,9 @@
 		75A7F13B1B5251960095F3B7 /* CutomViewCase1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CutomViewCase1.h; sourceTree = "<group>"; };
 		75A7F13C1B5251960095F3B7 /* CutomViewCase1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CutomViewCase1.m; sourceTree = "<group>"; };
 		75A7F13D1B5251960095F3B7 /* CutomViewCase1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CutomViewCase1.xib; sourceTree = "<group>"; };
-		75A7F13E1B5251960095F3B7 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
-		75A7F13F1B5251960095F3B7 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
-		75A7F1401B5251960095F3B7 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		75A7F13E1B5251960095F3B7 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestViewController.h; path = KnowIOS/TestViewController.h; sourceTree = "<group>"; };
+		75A7F13F1B5251960095F3B7 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestViewController.m; path = KnowIOS/TestViewController.m; sourceTree = "<group>"; };
+		75A7F1401B5251960095F3B7 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TestViewController.xib; path = KnowIOS/TestViewController.xib; sourceTree = "<group>"; };
 		75A7F1411B5251960095F3B7 /* 备份.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "备份.md"; sourceTree = "<group>"; };
 		75A7F1421B5251960095F3B7 /* 审核.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "审核.md"; sourceTree = "<group>"; };
 		75A7F1431B5251960095F3B7 /* 工具.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "工具.md"; sourceTree = "<group>"; };
@@ -534,9 +534,6 @@
 				75C173071B55FB96003DB9DA /* ScrollViewCase */,
 				7577AA251B53B41B001A4E75 /* MasonryCase */,
 				75A7F1371B5251960095F3B7 /* CustomViewCase */,
-				75A7F13E1B5251960095F3B7 /* TestViewController.h */,
-				75A7F13F1B5251960095F3B7 /* TestViewController.m */,
-				75A7F1401B5251960095F3B7 /* TestViewController.xib */,
 				75A7F1411B5251960095F3B7 /* 备份.md */,
 				75A7F1421B5251960095F3B7 /* 审核.md */,
 				75A7F1431B5251960095F3B7 /* 工具.md */,
@@ -805,6 +802,9 @@
 		75DCFBF51B4C121200CAA349 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				75A7F13E1B5251960095F3B7 /* TestViewController.h */,
+				75A7F13F1B5251960095F3B7 /* TestViewController.m */,
+				75A7F1401B5251960095F3B7 /* TestViewController.xib */,
 				751707CD1B4620F6007F1AE2 /* AppDelegate.h */,
 				751707CE1B4620F6007F1AE2 /* AppDelegate.m */,
 			);
