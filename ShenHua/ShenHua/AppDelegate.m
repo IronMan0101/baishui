@@ -43,8 +43,8 @@
     self.window.backgroundColor = [UIColor whiteColor];
     
     
-    self.window.rootViewController = [self creatTestController];
-   //self.window.rootViewController = [self creatMainController:4];
+    //self.window.rootViewController = [self creatTestController];
+    self.window.rootViewController = [self creatMainController:0];
     
 
     
@@ -84,7 +84,7 @@
     
    // UICollectionViewVC * testVC=[[UICollectionViewVC alloc] initWithNibName:@"UICollectionViewVC" bundle:nil];
     
-    UITableViewCaseVC * testVC=[[UITableViewCaseVC alloc] initWithNibName:@"UITableViewCaseVC" bundle:nil];
+   UITableViewCaseVC * testVC=[[UITableViewCaseVC alloc] initWithNibName:@"UITableViewCaseVC" bundle:nil];
     
     
     return  testVC;
@@ -161,10 +161,7 @@
     mainVC.delegate=self;;
     
     
-
-    
     return  mainVC;
-    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

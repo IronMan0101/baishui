@@ -7,23 +7,13 @@
 //
 
 #import "UITableViewCaseVC.h"
+#import "CellModel.h"
 
 @interface UITableViewCaseVC ()
 
 @end
 
 @implementation UITableViewCaseVC
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 
 
 
@@ -79,27 +69,10 @@
     //添加
     [self.view addSubview:self.tableView];
     
-    //
-    [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
-        
-        //make.center.equalTo(self.view);            //居中布局
-        //make.size.mas_equalTo(CGSizeMake(400,400));//大小固定400，400
-        // make.edges.equalTo(self.view);              //跟view一样宽高
-        
-        make.edges.equalTo(self.view).with.insets(UIEdgeInsetsMake(10, 10, 10, 10));//边缘都小于10
-        
-        /* 等价于
-         make.top.equalTo(sv).with.offset(10);
-         make.left.equalTo(sv).with.offset(10);
-         make.bottom.equalTo(sv).with.offset(-10);
-         make.right.equalTo(sv).with.offset(-10);
-         */
-        
-        
-        /* make.top.left.bottom.and.right.equalTo(self.view).with.insets(UIEdgeInsetsMake(10, 10, 10, 10));*/
-        
-        //这里有意思的地方是and和with 其实这两个函数什么事情都没做
-        
+    //制作约束
+    [self.tableView mas_makeConstraints:^(MASConstraintMaker *make)
+    {
+         make.edges.equalTo(self.view);              //跟view一样宽高
     }];
 }
 

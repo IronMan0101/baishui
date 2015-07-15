@@ -20,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    UITableView * tableView=[[UITableView alloc]initWithFrame:self.view.bounds];
+    UITableView * tableView=[[UITableView alloc]init];
     tableView.delegate=self;
     tableView.dataSource=self;
     
@@ -40,8 +40,14 @@
     NSString *str= [[CacheManager sharedManager] formatCacheSize];
     DLog(@"%@",str);
     DLog(@"");
-    //
-    //    UITableView * tableView=[[UITableView alloc]initWithFrame:CGRectMake(0, UI_NAVBAR_HEIGHT, UI_SCREEN_WIDTH, UI_SCREEN_HEIGHT-UI_TABBAR_HEIGHT-UI_NAVBAR_HEIGHT)];
+    
+    
+    //制作约束
+    [tableView mas_makeConstraints:^(MASConstraintMaker *make)
+     {
+         make.edges.equalTo(self.view);              //跟view一样宽高
+    }];
+
     
 }
 
