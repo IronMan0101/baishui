@@ -21,6 +21,11 @@
 #import "CustomViewCaseController.h"
 #import "HDMChannelTagManager.h"
 #import "MasonryCaseVC.h"
+#import "AutoLayoutCaseVC.h"
+#import "UICollectionViewVC.h"
+#import "UITableViewCaseVC.h"
+
+
 
 
 
@@ -74,7 +79,13 @@
 {
    // TestViewController * testVC=[[TestViewController alloc] initWithNibName:@"TestViewController" bundle:nil];
    // CustomViewCaseController * testVC=[[CustomViewCaseController alloc] initWithNibName:@"CustomViewCaseController" bundle:nil];
-     MasonryCaseVC * testVC=[[MasonryCaseVC alloc] initWithNibName:@"MasonryCaseVC" bundle:nil];
+   // MasonryCaseVC * testVC=[[MasonryCaseVC alloc] initWithNibName:@"MasonryCaseVC" bundle:nil];
+   // AutoLayoutCaseVC  * testVC=[[AutoLayoutCaseVC alloc] initWithNibName:@"AutoLayoutCaseVC" bundle:nil];
+    
+   // UICollectionViewVC * testVC=[[UICollectionViewVC alloc] initWithNibName:@"UICollectionViewVC" bundle:nil];
+    
+    UITableViewCaseVC * testVC=[[UITableViewCaseVC alloc] initWithNibName:@"UITableViewCaseVC" bundle:nil];
+    
     
     return  testVC;
 }

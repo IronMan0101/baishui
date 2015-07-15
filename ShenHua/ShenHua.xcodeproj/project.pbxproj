@@ -100,6 +100,14 @@
 		75A7F21B1B526DEE0095F3B7 /* HDMUserZoneManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1F31B526DEE0095F3B7 /* HDMUserZoneManager.m */; };
 		75A7F21C1B526DEE0095F3B7 /* HDMWapPushManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1F51B526DEE0095F3B7 /* HDMWapPushManager.m */; };
 		75A7F21F1B526E370095F3B7 /* BCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F21E1B526E370095F3B7 /* BCManager.m */; };
+		75AE20F41B54BF390023B7CF /* autolayout1.png in Resources */ = {isa = PBXBuildFile; fileRef = 75AE20F01B54BF390023B7CF /* autolayout1.png */; };
+		75AE20F51B54BF390023B7CF /* autolayout2.png in Resources */ = {isa = PBXBuildFile; fileRef = 75AE20F11B54BF390023B7CF /* autolayout2.png */; };
+		75AE20F61B54BF390023B7CF /* autolayout3.png in Resources */ = {isa = PBXBuildFile; fileRef = 75AE20F21B54BF390023B7CF /* autolayout3.png */; };
+		75AE20F71B54BF390023B7CF /* autolayout4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75AE20F31B54BF390023B7CF /* autolayout4.jpg */; };
+		75C1730B1B55FBE6003DB9DA /* UITableViewCaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C173091B55FBE6003DB9DA /* UITableViewCaseVC.m */; };
+		75C1730C1B55FBE6003DB9DA /* UITableViewCaseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75C1730A1B55FBE6003DB9DA /* UITableViewCaseVC.xib */; };
+		75C173151B55FD20003DB9DA /* UICollectionViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C173131B55FD20003DB9DA /* UICollectionViewVC.m */; };
+		75C173161B55FD20003DB9DA /* UICollectionViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75C173141B55FD20003DB9DA /* UICollectionViewVC.xib */; };
 		75D9A88C1B4E6C4500C4CB34 /* CacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D9A88B1B4E6C4500C4CB34 /* CacheManager.m */; };
 		75D9A88F1B4E70C600C4CB34 /* SDCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D9A88E1B4E70C600C4CB34 /* SDCache.m */; };
 		75DCFBEE1B4C11AC00CAA349 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DCFBED1B4C11AC00CAA349 /* BaseViewController.m */; };
@@ -316,6 +324,16 @@
 		75A7F1F51B526DEE0095F3B7 /* HDMWapPushManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMWapPushManager.m; sourceTree = "<group>"; };
 		75A7F21D1B526E370095F3B7 /* BCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCManager.h; sourceTree = "<group>"; };
 		75A7F21E1B526E370095F3B7 /* BCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCManager.m; sourceTree = "<group>"; };
+		75AE20F01B54BF390023B7CF /* autolayout1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = autolayout1.png; sourceTree = "<group>"; };
+		75AE20F11B54BF390023B7CF /* autolayout2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = autolayout2.png; sourceTree = "<group>"; };
+		75AE20F21B54BF390023B7CF /* autolayout3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = autolayout3.png; sourceTree = "<group>"; };
+		75AE20F31B54BF390023B7CF /* autolayout4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = autolayout4.jpg; sourceTree = "<group>"; };
+		75C173081B55FBE6003DB9DA /* UITableViewCaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewCaseVC.h; sourceTree = "<group>"; };
+		75C173091B55FBE6003DB9DA /* UITableViewCaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableViewCaseVC.m; sourceTree = "<group>"; };
+		75C1730A1B55FBE6003DB9DA /* UITableViewCaseVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UITableViewCaseVC.xib; sourceTree = "<group>"; };
+		75C173121B55FD20003DB9DA /* UICollectionViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewVC.h; sourceTree = "<group>"; };
+		75C173131B55FD20003DB9DA /* UICollectionViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewVC.m; sourceTree = "<group>"; };
+		75C173141B55FD20003DB9DA /* UICollectionViewVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UICollectionViewVC.xib; sourceTree = "<group>"; };
 		75D9A88A1B4E6C4500C4CB34 /* CacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheManager.h; sourceTree = "<group>"; };
 		75D9A88B1B4E6C4500C4CB34 /* CacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheManager.m; sourceTree = "<group>"; };
 		75D9A88D1B4E70C600C4CB34 /* SDCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCache.h; sourceTree = "<group>"; };
@@ -477,6 +495,10 @@
 		7577AA251B53B41B001A4E75 /* MasonryCase */ = {
 			isa = PBXGroup;
 			children = (
+				75AE20F01B54BF390023B7CF /* autolayout1.png */,
+				75AE20F11B54BF390023B7CF /* autolayout2.png */,
+				75AE20F21B54BF390023B7CF /* autolayout3.png */,
+				75AE20F31B54BF390023B7CF /* autolayout4.jpg */,
 				7577AA261B53B931001A4E75 /* Masonry.jpg */,
 				7577AA281B53BDD8001A4E75 /* MasonryCaseVC.h */,
 				7577AA291B53BDD8001A4E75 /* MasonryCaseVC.m */,
@@ -509,6 +531,7 @@
 		75A7F1361B5251960095F3B7 /* KnowIOS */ = {
 			isa = PBXGroup;
 			children = (
+				75C173071B55FB96003DB9DA /* ScrollViewCase */,
 				7577AA251B53B41B001A4E75 /* MasonryCase */,
 				75A7F1371B5251960095F3B7 /* CustomViewCase */,
 				75A7F13E1B5251960095F3B7 /* TestViewController.h */,
@@ -751,6 +774,19 @@
 			path = AppDefine;
 			sourceTree = "<group>";
 		};
+		75C173071B55FB96003DB9DA /* ScrollViewCase */ = {
+			isa = PBXGroup;
+			children = (
+				75C173081B55FBE6003DB9DA /* UITableViewCaseVC.h */,
+				75C173091B55FBE6003DB9DA /* UITableViewCaseVC.m */,
+				75C1730A1B55FBE6003DB9DA /* UITableViewCaseVC.xib */,
+				75C173121B55FD20003DB9DA /* UICollectionViewVC.h */,
+				75C173131B55FD20003DB9DA /* UICollectionViewVC.m */,
+				75C173141B55FD20003DB9DA /* UICollectionViewVC.xib */,
+			);
+			path = ScrollViewCase;
+			sourceTree = "<group>";
+		};
 		75DCFBEB1B4C116D00CAA349 /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -935,15 +971,21 @@
 				75DCFC0E1B4C145900CAA349 /* FourVC.xib in Resources */,
 				7577AA2C1B53BDD8001A4E75 /* MasonryCaseVC.xib in Resources */,
 				75A7F14D1B5251960095F3B7 /* TestViewController.xib in Resources */,
+				75C173161B55FD20003DB9DA /* UICollectionViewVC.xib in Resources */,
 				7577AA271B53B931001A4E75 /* Masonry.jpg in Resources */,
+				75AE20F51B54BF390023B7CF /* autolayout2.png in Resources */,
+				75AE20F61B54BF390023B7CF /* autolayout3.png in Resources */,
 				75A7F14B1B5251960095F3B7 /* CutomViewCase1.xib in Resources */,
+				75C1730C1B55FBE6003DB9DA /* UITableViewCaseVC.xib in Resources */,
 				75DCFBFF1B4C130D00CAA349 /* OneVC.xib in Resources */,
 				751707D71B4620F6007F1AE2 /* Images.xcassets in Resources */,
+				75AE20F41B54BF390023B7CF /* autolayout1.png in Resources */,
 				7577AA311B53C322001A4E75 /* AutoLayoutCaseVC.xib in Resources */,
 				7582FBB41B4FCC0400A3766B /* 微信-发现.jpg in Resources */,
 				75DCFC131B4C14DD00CAA349 /* FiveVC.xib in Resources */,
 				7582FBB91B4FCC5600A3766B /* WinXinFindVC.xib in Resources */,
 				75DCFC091B4C13CC00CAA349 /* ThreeVC.xib in Resources */,
+				75AE20F71B54BF390023B7CF /* autolayout4.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1003,6 +1045,7 @@
 				75A7F1FF1B526DEE0095F3B7 /* HDMChannelTagManager.m in Sources */,
 				75A7F17F1B5259850095F3B7 /* HDMSetting.m in Sources */,
 				75A7F1501B5251960095F3B7 /* 工具.md in Sources */,
+				75C173151B55FD20003DB9DA /* UICollectionViewVC.m in Sources */,
 				75A7F2111B526DEE0095F3B7 /* HDMRecommendProductManager.m in Sources */,
 				75A7F2031B526DEE0095F3B7 /* HDMDownloadProductSectionManager.m in Sources */,
 				75A7F1FA1B526DEE0095F3B7 /* HDMChannelCurrencyManager.m in Sources */,
@@ -1094,6 +1137,7 @@
 				75A7F14A1B5251960095F3B7 /* CutomViewCase1.m in Sources */,
 				75A7F17D1B5259850095F3B7 /* HDMProduct.m in Sources */,
 				75A7F1A51B5268DD0095F3B7 /* HDMFunction.m in Sources */,
+				75C1730B1B55FBE6003DB9DA /* UITableViewCaseVC.m in Sources */,
 				75A7F1F61B526DEE0095F3B7 /* HDMBannerProductManager.m in Sources */,
 				75A7F2091B526DEE0095F3B7 /* HDMPackageManager.m in Sources */,
 				75A7F2021B526DEE0095F3B7 /* HDMDownloadProductManager.m in Sources */,

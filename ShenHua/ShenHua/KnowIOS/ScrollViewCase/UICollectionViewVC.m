@@ -1,36 +1,22 @@
 //
-//  AutoLayoutCaseVC.m
+//  UICollectionViewVC.m
 //  ShenHua
 //
-//  Created by suzhiqiu on 15/7/13.
+//  Created by suzhiqiu on 15/7/15.
 //  Copyright (c) 2015年 suzhiqiu. All rights reserved.
 //
 
-#import "AutoLayoutCaseVC.h"
+#import "UICollectionViewVC.h"
 
-@interface AutoLayoutCaseVC ()
+@interface UICollectionViewVC ()
 
 @end
 
-@implementation AutoLayoutCaseVC
+@implementation UICollectionViewVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    
-
-    self.lbl1.hidden=YES;
-    self.lbl2.hidden=YES;
-    self.lbl3.hidden=YES;
-    self.lbl4.hidden=YES;
-    self.lbl5.hidden=YES;
-    self.lbl6.hidden=YES;
-    
-    
-    self.lbl1.hidden=NO;
-    self.lbl2.hidden=NO;
-    
-
 }
 
 - (void)didReceiveMemoryWarning {

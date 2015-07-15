@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
@@ -7,6 +7,12 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AutoLayoutCaseVC">
             <connections>
+                <outlet property="lbl1" destination="BVp-vF-5Tr" id="VTC-VI-CbQ"/>
+                <outlet property="lbl2" destination="uiZ-oV-1jY" id="rHD-nF-Wcb"/>
+                <outlet property="lbl3" destination="bbS-dw-bBg" id="ZMA-Ut-34F"/>
+                <outlet property="lbl4" destination="f6d-V9-Okf" id="xRg-E0-dLr"/>
+                <outlet property="lbl5" destination="hV2-C1-aCn" id="APw-CH-W6l"/>
+                <outlet property="lbl6" destination="YOh-AP-OkC" id="kvM-rt-YKi"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -15,29 +21,29 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BVp-vF-5Tr">
-                    <rect key="frame" x="67" y="82" width="150" height="150"/>
-                    <color key="backgroundColor" red="0.36078431372549019" green="0.9882352941176471" blue="0.6588235294117647" alpha="1" colorSpace="calibratedRGB"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uiZ-oV-1jY">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uiZ-oV-1jY">
                     <rect key="frame" x="236" y="82" width="150" height="150"/>
                     <color key="backgroundColor" red="0.98717862369999998" green="0.69637604490000005" blue="0.14452200630000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="300" id="F6g-nM-OI8"/>
+                    </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="F6g-nM-OI8"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <exclude reference="F6g-nM-OI8"/>
+                        </mask>
+                    </variation>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bbS-dw-bBg">
                     <rect key="frame" x="411" y="82" width="150" height="150"/>
                     <color key="backgroundColor" red="0.98717862369999998" green="0.48145267679999998" blue="0.35007824279999999" alpha="1" colorSpace="calibratedRGB"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f6d-V9-Okf">
-                    <rect key="frame" x="67" y="257" width="150" height="150"/>
-                    <color key="backgroundColor" red="0.93346847889999995" green="0.5210416189" blue="0.98717862369999998" alpha="1" colorSpace="calibratedRGB"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
@@ -56,9 +62,65 @@
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BVp-vF-5Tr">
+                    <rect key="frame" x="225" y="225" width="150" height="150"/>
+                    <color key="backgroundColor" red="0.36078431372549019" green="0.9882352941176471" blue="0.6588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="jPT-11-wB4"/>
+                        <constraint firstAttribute="width" constant="150" id="sbd-xb-P69"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                        <rect key="frame" x="58" y="393" width="209" height="109.5"/>
+                        <mask key="constraints">
+                            <exclude reference="jPT-11-wB4"/>
+                            <exclude reference="sbd-xb-P69"/>
+                        </mask>
+                    </variation>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="4" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f6d-V9-Okf">
+                    <rect key="frame" x="67" y="257" width="150" height="150"/>
+                    <color key="backgroundColor" red="0.93346847889999995" green="0.5210416189" blue="0.98717862369999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                        <rect key="frame" x="58" y="134" width="150" height="150"/>
+                    </variation>
+                </label>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-            <point key="canvasLocation" x="190" y="209"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="uiZ-oV-1jY" secondAttribute="trailing" constant="8" id="2j8-3K-Ntc"/>
+                <constraint firstAttribute="centerY" secondItem="BVp-vF-5Tr" secondAttribute="centerY" id="J6P-Rb-BeS"/>
+                <constraint firstAttribute="centerX" secondItem="BVp-vF-5Tr" secondAttribute="centerX" id="KZZ-Y8-szN"/>
+                <constraint firstItem="BVp-vF-5Tr" firstAttribute="width" secondItem="uiZ-oV-1jY" secondAttribute="width" id="brq-l1-A9f"/>
+                <constraint firstItem="uiZ-oV-1jY" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="12" id="c7D-Vl-eMQ"/>
+                <constraint firstItem="f6d-V9-Okf" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="167" id="j3J-xT-Sa9"/>
+                <constraint firstItem="uiZ-oV-1jY" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="30" id="ksb-Kl-BfU"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="2j8-3K-Ntc"/>
+                    <exclude reference="c7D-Vl-eMQ"/>
+                    <exclude reference="ksb-Kl-BfU"/>
+                    <exclude reference="j3J-xT-Sa9"/>
+                    <exclude reference="brq-l1-A9f"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="constraints">
+                    <include reference="2j8-3K-Ntc"/>
+                    <include reference="c7D-Vl-eMQ"/>
+                    <include reference="ksb-Kl-BfU"/>
+                    <include reference="j3J-xT-Sa9"/>
+                    <exclude reference="J6P-Rb-BeS"/>
+                    <exclude reference="KZZ-Y8-szN"/>
+                    <include reference="brq-l1-A9f"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="43" y="-97"/>
         </view>
     </objects>
 </document>
