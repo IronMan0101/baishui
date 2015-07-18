@@ -10,4 +10,9 @@
 
 @interface BaseViewController : UIViewController
 
+/**
+ *  设置导航标题
+ */
+-(void)setNavTitle:(NSString *)title;
+
 @end

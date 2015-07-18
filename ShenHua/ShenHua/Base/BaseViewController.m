@@ -21,9 +21,18 @@
     self.view.backgroundColor=BASEVIEWCOLOR;
 }
 
-- (void)didReceiveMemoryWarning {
+- (void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+/**
+ *  设置导航标题
+ */
+-(void)setNavTitle:(NSString *)title
+{
+    self.navigationItem.title=title;
 }
 
 
