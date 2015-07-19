@@ -27,6 +27,7 @@
 #define UI_SCREEN_HEIGHT           [UIScreen mainScreen].bounds.size.height   //屏幕高度
 #define UI_LABEL_HEIGHT            21                                         //默认label高度
 #define UI_CELL_HEIGHT             44                                         //默认cell高度
+#define PHONENUMBER_TAG            999                                        //拨打电话默认的tag数
 
 
 //系统版本号比较 = >  >=   <   <=

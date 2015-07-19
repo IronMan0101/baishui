@@ -27,23 +27,26 @@
 
 -(IBAction)btnLogin:(id)sender
 {
-    [Toast showWithHub:@"正在登陆..."];
+//    [Toast showWithHub:@"正在登陆..."];
+//    
+//    HDMChannelTagManager*  _manager = [[HDMChannelTagManager alloc] initWithParameter:nil];
+//    _manager.channel =2;
+//    [_manager enquiryListSuccess:^(NSDictionary *codeMsg) {
+//        
+//        NSLog(@"success");
+//        [Toast hideWithHub];
+//        //[Toast show:@"登陆成功!"];
+//        //[Toast showSuccess:@"登陆成功!"];
+//        [Toast showError:@"网络连接超时!!!"];
+//        
+//    } Failure:^(NSDictionary *codeMsg)
+//     {
+//        // NSLog(@"获取菜单失败");
+//         //   [HDMPushData sharedInstance].pushChannelState = PushChannelStateDefault;
+//     }];
     
-    HDMChannelTagManager*  _manager = [[HDMChannelTagManager alloc] initWithParameter:nil];
-    _manager.channel =2;
-    [_manager enquiryListSuccess:^(NSDictionary *codeMsg) {
-        
-        NSLog(@"success");
-        [Toast hideWithHub];
-        //[Toast show:@"登陆成功!"];
-        //[Toast showSuccess:@"登陆成功!"];
-        [Toast showError:@"网络连接超时!!!"];
-        
-    } Failure:^(NSDictionary *codeMsg)
-     {
-        // NSLog(@"获取菜单失败");
-         //   [HDMPushData sharedInstance].pushChannelState = PushChannelStateDefault;
-     }];
+   // [Util openURL:@"www.baidu.com"];
+    [Util openCALL:self.view phoneNumber:@"18205957502"];
 }
 
 @end

@@ -117,6 +117,7 @@
 		75BB782C1B5B637C0055A963 /* Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BB782B1B5B637C0055A963 /* Toast.m */; };
 		75BB78311B5B66020055A963 /* HubViewCaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BB782F1B5B66020055A963 /* HubViewCaseVC.m */; };
 		75BB78321B5B66020055A963 /* HubViewCaseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75BB78301B5B66020055A963 /* HubViewCaseVC.xib */; };
+		75BB78351B5BD1E20055A963 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BB78341B5BD1E20055A963 /* Util.m */; };
 		75C1730B1B55FBE6003DB9DA /* UITableViewCaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C173091B55FBE6003DB9DA /* UITableViewCaseVC.m */; };
 		75C1730C1B55FBE6003DB9DA /* UITableViewCaseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75C1730A1B55FBE6003DB9DA /* UITableViewCaseVC.xib */; };
 		75C173151B55FD20003DB9DA /* UICollectionViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C173131B55FD20003DB9DA /* UICollectionViewVC.m */; };
@@ -362,6 +363,8 @@
 		75BB782E1B5B66020055A963 /* HubViewCaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HubViewCaseVC.h; sourceTree = "<group>"; };
 		75BB782F1B5B66020055A963 /* HubViewCaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HubViewCaseVC.m; sourceTree = "<group>"; };
 		75BB78301B5B66020055A963 /* HubViewCaseVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HubViewCaseVC.xib; sourceTree = "<group>"; };
+		75BB78331B5BD1E20055A963 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		75BB78341B5BD1E20055A963 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
 		75C173081B55FBE6003DB9DA /* UITableViewCaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewCaseVC.h; sourceTree = "<group>"; };
 		75C173091B55FBE6003DB9DA /* UITableViewCaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableViewCaseVC.m; sourceTree = "<group>"; };
 		75C1730A1B55FBE6003DB9DA /* UITableViewCaseVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UITableViewCaseVC.xib; sourceTree = "<group>"; };
@@ -796,6 +799,8 @@
 		75ACC1E41B48E83D001776AD /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				75BB78331B5BD1E20055A963 /* Util.h */,
+				75BB78341B5BD1E20055A963 /* Util.m */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -1200,6 +1205,7 @@
 				75A7F14E1B5251960095F3B7 /* 备份.md in Sources */,
 				75A7F20B1B526DEE0095F3B7 /* HDMProductManager.m in Sources */,
 				7578B1261B4F6B8600CAFC40 /* CellModel.m in Sources */,
+				75BB78351B5BD1E20055A963 /* Util.m in Sources */,
 				75A7F14F1B5251960095F3B7 /* 审核.md in Sources */,
 				75A7F2001B526DEE0095F3B7 /* HDMCheckFlagManager.m in Sources */,
 				75A7F20E1B526DEE0095F3B7 /* HDMProductSimilarManager.m in Sources */,
