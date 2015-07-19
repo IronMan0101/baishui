@@ -10,10 +10,13 @@
 #define ShenHua_Base_h
 
 
-#import "BaseViewController.h"
+
+
 #import "BaseNavigationController.h"
 #import "BaseTabBarController.h"
 
+#import "BaseViewController.h"
+#import "BaseTableViewController.h"
 
 
 #endif

@@ -11,11 +11,12 @@
 
 
 
-#define APP_VERSION         [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"] //APP版本号
-#define RGB(A,B,C)          [UIColor colorWithRed:A/255.0 green:B/255.0 blue:C/255.0 alpha:1.0]      //RGB值
-#define PATH_OF_APPHOME     NSHomeDirectory()
-#define PATH_OF_TEMP        NSTemporaryDirectory()
-#define PATH_OF_DOCUMENT    [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0]
+#define APP_VERSION              [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"] //APP版本号
+#define RGB(A,B,C)               [UIColor colorWithRed:A/255.0 green:B/255.0 blue:C/255.0 alpha:1.0]      //RGB值
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+#define PATH_OF_APPHOME          NSHomeDirectory()
+#define PATH_OF_TEMP             NSTemporaryDirectory()
+#define PATH_OF_DOCUMENT         [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0]
 
 //ui全局定义
 #define UI_NAVBAR_HEIGHT           44                                         //UINavgationbar高度
@@ -24,6 +25,8 @@
 //#define UI_STATUS_BAR_HEIGHT      ([[UIApplication sharedApplication] statusBarFrame].size.height) 开启热点变成40
 #define UI_SCREEN_WIDTH            [UIScreen mainScreen].bounds.size.width    //屏幕宽度
 #define UI_SCREEN_HEIGHT           [UIScreen mainScreen].bounds.size.height   //屏幕高度
+#define UI_LABEL_HEIGHT            21                                         //默认label高度
+#define UI_CELL_HEIGHT             44                                         //默认cell高度
 
 
 //系统版本号比较 = >  >=   <   <=

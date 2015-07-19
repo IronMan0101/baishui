@@ -108,6 +108,10 @@
 		75B08E2C1B56B58F00CA28C1 /* UITableViewCaseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75B08E2B1B56B58F00CA28C1 /* UITableViewCaseCell.xib */; };
 		75BB78141B59E0050055A963 /* AnimCaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BB78121B59E0050055A963 /* AnimCaseVC.m */; };
 		75BB78151B59E0050055A963 /* AnimCaseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75BB78131B59E0050055A963 /* AnimCaseVC.xib */; };
+		75BB781A1B5A013F0055A963 /* AboutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BB78181B5A013F0055A963 /* AboutVC.m */; };
+		75BB781B1B5A013F0055A963 /* AboutVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75BB78191B5A013F0055A963 /* AboutVC.xib */; };
+		75BB781E1B5A084E0055A963 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BB781D1B5A084E0055A963 /* BaseTableViewController.m */; };
+		75BB78211B5A0CA80055A963 /* xxTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BB78201B5A0CA80055A963 /* xxTableViewController.m */; };
 		75C1730B1B55FBE6003DB9DA /* UITableViewCaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C173091B55FBE6003DB9DA /* UITableViewCaseVC.m */; };
 		75C1730C1B55FBE6003DB9DA /* UITableViewCaseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75C1730A1B55FBE6003DB9DA /* UITableViewCaseVC.xib */; };
 		75C173151B55FD20003DB9DA /* UICollectionViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C173131B55FD20003DB9DA /* UICollectionViewVC.m */; };
@@ -339,6 +343,13 @@
 		75BB78111B59E0050055A963 /* AnimCaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimCaseVC.h; sourceTree = "<group>"; };
 		75BB78121B59E0050055A963 /* AnimCaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimCaseVC.m; sourceTree = "<group>"; };
 		75BB78131B59E0050055A963 /* AnimCaseVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimCaseVC.xib; sourceTree = "<group>"; };
+		75BB78171B5A013F0055A963 /* AboutVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutVC.h; sourceTree = "<group>"; };
+		75BB78181B5A013F0055A963 /* AboutVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutVC.m; sourceTree = "<group>"; };
+		75BB78191B5A013F0055A963 /* AboutVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutVC.xib; sourceTree = "<group>"; };
+		75BB781C1B5A084E0055A963 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		75BB781D1B5A084E0055A963 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		75BB781F1B5A0CA80055A963 /* xxTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xxTableViewController.h; sourceTree = "<group>"; };
+		75BB78201B5A0CA80055A963 /* xxTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xxTableViewController.m; sourceTree = "<group>"; };
 		75C173081B55FBE6003DB9DA /* UITableViewCaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewCaseVC.h; sourceTree = "<group>"; };
 		75C173091B55FBE6003DB9DA /* UITableViewCaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableViewCaseVC.m; sourceTree = "<group>"; };
 		75C1730A1B55FBE6003DB9DA /* UITableViewCaseVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UITableViewCaseVC.xib; sourceTree = "<group>"; };
@@ -793,6 +804,18 @@
 			path = AnimCase;
 			sourceTree = "<group>";
 		};
+		75BB78161B5A01240055A963 /* fanhuan */ = {
+			isa = PBXGroup;
+			children = (
+				75BB78171B5A013F0055A963 /* AboutVC.h */,
+				75BB78181B5A013F0055A963 /* AboutVC.m */,
+				75BB78191B5A013F0055A963 /* AboutVC.xib */,
+				75BB781F1B5A0CA80055A963 /* xxTableViewController.h */,
+				75BB78201B5A0CA80055A963 /* xxTableViewController.m */,
+			);
+			path = fanhuan;
+			sourceTree = "<group>";
+		};
 		75C173071B55FB96003DB9DA /* ScrollViewCase */ = {
 			isa = PBXGroup;
 			children = (
@@ -819,6 +842,8 @@
 				75DCFBF01B4C11CC00CAA349 /* BaseNavigationController.m */,
 				75DCFBF21B4C11DF00CAA349 /* BaseTabBarController.h */,
 				75DCFBF31B4C11DF00CAA349 /* BaseTabBarController.m */,
+				75BB781C1B5A084E0055A963 /* BaseTableViewController.h */,
+				75BB781D1B5A084E0055A963 /* BaseTableViewController.m */,
 				7578B1241B4F6B8600CAFC40 /* CellModel.h */,
 				7578B1251B4F6B8600CAFC40 /* CellModel.m */,
 			);
@@ -840,6 +865,7 @@
 		75DCFBF61B4C12DD00CAA349 /* five */ = {
 			isa = PBXGroup;
 			children = (
+				75BB78161B5A01240055A963 /* fanhuan */,
 				7582FBB21B4FBFAD00A3766B /* weixin */,
 				75DCFC0F1B4C14DD00CAA349 /* FiveVC.h */,
 				75DCFC101B4C14DD00CAA349 /* FiveVC.m */,
@@ -993,6 +1019,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75A7F1491B5251960095F3B7 /* CustomViewCaseController.xib in Resources */,
+				75BB781B1B5A013F0055A963 /* AboutVC.xib in Resources */,
 				75BB78151B59E0050055A963 /* AnimCaseVC.xib in Resources */,
 				75B08E2C1B56B58F00CA28C1 /* UITableViewCaseCell.xib in Resources */,
 				75DCFC041B4C137300CAA349 /* TwoVC.xib in Resources */,
@@ -1100,7 +1127,9 @@
 				75A7F21A1B526DEE0095F3B7 /* HDMUserSetCurrencyManager.m in Sources */,
 				75DCFBEE1B4C11AC00CAA349 /* BaseViewController.m in Sources */,
 				75A7F21B1B526DEE0095F3B7 /* HDMUserZoneManager.m in Sources */,
+				75BB781A1B5A013F0055A963 /* AboutVC.m in Sources */,
 				75A7F17B1B5259850095F3B7 /* HDMPackage.m in Sources */,
+				75BB781E1B5A084E0055A963 /* BaseTableViewController.m in Sources */,
 				75A7F1841B525A520095F3B7 /* BCModel.m in Sources */,
 				75DCFBF41B4C11DF00CAA349 /* BaseTabBarController.m in Sources */,
 				75A7F2071B526DEE0095F3B7 /* HDMHotkeyProductManager.m in Sources */,
@@ -1117,6 +1146,7 @@
 				75A7F2011B526DEE0095F3B7 /* HDMDownloadManager.m in Sources */,
 				75A7F21C1B526DEE0095F3B7 /* HDMWapPushManager.m in Sources */,
 				75DCFC031B4C137300CAA349 /* TwoVC.m in Sources */,
+				75BB78211B5A0CA80055A963 /* xxTableViewController.m in Sources */,
 				75D9A88C1B4E6C4500C4CB34 /* CacheManager.m in Sources */,
 				75EC991F1B492E1E00A5388A /* NSData+BCCategory.m in Sources */,
 				75DCFC081B4C13CC00CAA349 /* ThreeVC.m in Sources */,

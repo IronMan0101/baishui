@@ -24,6 +24,8 @@
 #import "AutoLayoutCaseVC.h"
 #import "UICollectionViewVC.h"
 #import "UITableViewCaseVC.h"
+#import "AnimCaseVC.h"
+#import "AboutVC.h"
 
 
 
@@ -43,8 +45,8 @@
     self.window.backgroundColor = [UIColor whiteColor];
     
     
-    //self.window.rootViewController = [self creatTestController];
-    self.window.rootViewController = [self creatMainController:0];
+    self.window.rootViewController = [self creatTestController];
+    //self.window.rootViewController = [self creatMainController:0];
     
 
     
@@ -81,11 +83,12 @@
    // CustomViewCaseController * testVC=[[CustomViewCaseController alloc] initWithNibName:@"CustomViewCaseController" bundle:nil];
    // MasonryCaseVC * testVC=[[MasonryCaseVC alloc] initWithNibName:@"MasonryCaseVC" bundle:nil];
    // AutoLayoutCaseVC  * testVC=[[AutoLayoutCaseVC alloc] initWithNibName:@"AutoLayoutCaseVC" bundle:nil];
-    
    // UICollectionViewVC * testVC=[[UICollectionViewVC alloc] initWithNibName:@"UICollectionViewVC" bundle:nil];
+   // UITableViewCaseVC * testVC=[[UITableViewCaseVC alloc] initWithNibName:@"UITableViewCaseVC" bundle:nil];
     
-   UITableViewCaseVC * testVC=[[UITableViewCaseVC alloc] initWithNibName:@"UITableViewCaseVC" bundle:nil];
+   // AnimCaseVC * testVC=[[AnimCaseVC alloc] initWithNibName:@"AnimCaseVC" bundle:nil];//测试动画
     
+    AboutVC* testVC=[[AboutVC alloc] initWithNibName:@"AboutVC" bundle:nil];//关于页面
     
     return  testVC;
 }
