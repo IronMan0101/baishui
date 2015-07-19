@@ -26,6 +26,8 @@
 #import "UITableViewCaseVC.h"
 #import "AnimCaseVC.h"
 #import "AboutVC.h"
+#import "LicensePageVC.h"
+#import "HubViewCaseVC.h"
 
 
 
@@ -88,7 +90,13 @@
     
    // AnimCaseVC * testVC=[[AnimCaseVC alloc] initWithNibName:@"AnimCaseVC" bundle:nil];//测试动画
     
-    AboutVC* testVC=[[AboutVC alloc] initWithNibName:@"AboutVC" bundle:nil];//关于页面
+   // AboutVC* testVC=[[AboutVC alloc] initWithNibName:@"AboutVC" bundle:nil];//关于页面
+    
+   // LicensePageVC* testVC=[[LicensePageVC alloc] initWithNibName:@"LicensePageVC" bundle:nil];//关于开源组件页面
+    
+    
+    HubViewCaseVC* testVC=[[HubViewCaseVC alloc] initWithNibName:@"HubViewCaseVC" bundle:nil];
+    
     
     return  testVC;
 }

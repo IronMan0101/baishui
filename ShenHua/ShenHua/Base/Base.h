@@ -17,6 +17,7 @@
 
 #import "BaseViewController.h"
 #import "BaseTableViewController.h"
+#import "Toast.h"
 
 
 #endif
