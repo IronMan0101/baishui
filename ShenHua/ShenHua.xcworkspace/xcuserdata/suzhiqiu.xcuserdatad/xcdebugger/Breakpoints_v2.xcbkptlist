@@ -600,13 +600,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ShenHua/KnowIOS/HubViewCase/HubViewCaseVC.m"
-            timestampString = "459004942.563745"
+            timestampString = "459157716.937004"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
-            landmarkName = "-btnLogin:"
-            landmarkType = "5">
+            startingLineNumber = "73"
+            endingLineNumber = "73">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

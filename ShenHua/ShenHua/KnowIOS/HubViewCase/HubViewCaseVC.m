@@ -18,7 +18,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+  // [self initTopTipView];
+    
+   // [self.topTipView setTitle:@"有很多商品可以去看看"];
 }
+
+
+
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

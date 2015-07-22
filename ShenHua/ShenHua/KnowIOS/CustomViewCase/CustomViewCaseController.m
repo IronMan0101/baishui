@@ -19,7 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-//    CutomViewCase1 *cutomViewCase1=[UIView bc_loadNib:@"CutomViewCase1"];
+    CutomViewCase1 *cutomViewCase1=[UIView bc_loadNib:@"CutomViewCase1"];
 //    [self.view addSubview:cutomViewCase1];
 //    cutomViewCase1.caseText1.text=@"你妹啊";
 

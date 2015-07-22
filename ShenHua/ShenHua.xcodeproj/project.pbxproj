@@ -21,6 +21,7 @@
 		7582FBB41B4FCC0400A3766B /* 微信-发现.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7582FBB31B4FCC0400A3766B /* 微信-发现.jpg */; };
 		7582FBB81B4FCC5600A3766B /* WinXinFindVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7582FBB61B4FCC5600A3766B /* WinXinFindVC.m */; };
 		7582FBB91B4FCC5600A3766B /* WinXinFindVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7582FBB71B4FCC5600A3766B /* WinXinFindVC.xib */; };
+		75A0A4B41B5F3B3E00DBD2F7 /* 逆向.md in Sources */ = {isa = PBXBuildFile; fileRef = 75A0A4B31B5F3B3E00DBD2F7 /* 逆向.md */; };
 		75A7F1481B5251960095F3B7 /* CustomViewCaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F1391B5251960095F3B7 /* CustomViewCaseController.m */; };
 		75A7F1491B5251960095F3B7 /* CustomViewCaseController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75A7F13A1B5251960095F3B7 /* CustomViewCaseController.xib */; };
 		75A7F14A1B5251960095F3B7 /* CutomViewCase1.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7F13C1B5251960095F3B7 /* CutomViewCase1.m */; };
@@ -187,6 +188,7 @@
 		7582FBB51B4FCC5600A3766B /* WinXinFindVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinXinFindVC.h; sourceTree = "<group>"; };
 		7582FBB61B4FCC5600A3766B /* WinXinFindVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WinXinFindVC.m; sourceTree = "<group>"; };
 		7582FBB71B4FCC5600A3766B /* WinXinFindVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WinXinFindVC.xib; sourceTree = "<group>"; };
+		75A0A4B31B5F3B3E00DBD2F7 /* 逆向.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "逆向.md"; sourceTree = "<group>"; };
 		75A4E1FE1B560E03004B7CCA /* Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base.h; sourceTree = "<group>"; };
 		75A7F1381B5251960095F3B7 /* CustomViewCaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewCaseController.h; sourceTree = "<group>"; };
 		75A7F1391B5251960095F3B7 /* CustomViewCaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewCaseController.m; sourceTree = "<group>"; };
@@ -569,6 +571,7 @@
 		75A7F1361B5251960095F3B7 /* KnowIOS */ = {
 			isa = PBXGroup;
 			children = (
+				75A0A4B31B5F3B3E00DBD2F7 /* 逆向.md */,
 				75BB782D1B5B65E70055A963 /* HubViewCase */,
 				75BB78101B59DFF20055A963 /* AnimCase */,
 				75C173071B55FB96003DB9DA /* ScrollViewCase */,
@@ -1209,6 +1212,7 @@
 				75A7F14F1B5251960095F3B7 /* 审核.md in Sources */,
 				75A7F2001B526DEE0095F3B7 /* HDMCheckFlagManager.m in Sources */,
 				75A7F20E1B526DEE0095F3B7 /* HDMProductSimilarManager.m in Sources */,
+				75A0A4B41B5F3B3E00DBD2F7 /* 逆向.md in Sources */,
 				75A7F17C1B5259850095F3B7 /* HDMParentClass.m in Sources */,
 				75EC99221B492E3000A5388A /* NSString+BCCategory.m in Sources */,
 				7582FBB81B4FCC5600A3766B /* WinXinFindVC.m in Sources */,

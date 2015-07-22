@@ -23,6 +23,9 @@ PODS:
   - FMDB (2.5):
     - FMDB/standard (= 2.5)
   - FMDB/common (2.5)
+  - FMDB/SQLCipher (2.5):
+    - FMDB/common
+    - SQLCipher
   - FMDB/standard (2.5):
     - FMDB/common
   - KVOController (1.0.3)
@@ -42,11 +45,17 @@ PODS:
     - SDWebImage/Core (= 3.7.2)
   - SDWebImage/Core (3.7.2)
   - SMPageControl (1.2)
+  - SQLCipher (3.1.0):
+    - SQLCipher/standard (= 3.1.0)
+  - SQLCipher/common (3.1.0)
+  - SQLCipher/standard (3.1.0):
+    - SQLCipher/common
   - TTTAttributedLabel (1.13.4)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.5.4)
   - FMDB (~> 2.5)
+  - FMDB/SQLCipher
   - KVOController (~> 1.0.3)
   - Mantle (~> 2.0.2)
   - Masonry (~> 0.6.1)
@@ -70,6 +79,7 @@ SPEC CHECKSUMS:
   RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
   SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
   SMPageControl: 922892813001cfaf059e86e6801f46a967e9ee29
+  SQLCipher: c44fcca49c31483c2489cfb79aa7a69407f3794a
   TTTAttributedLabel: 0a2ac7b2dd726d32a070dafb01446026b11e624f
 
 COCOAPODS: 0.37.1
