@@ -571,7 +571,6 @@
 		75A7F1361B5251960095F3B7 /* KnowIOS */ = {
 			isa = PBXGroup;
 			children = (
-				75A0A4B31B5F3B3E00DBD2F7 /* 逆向.md */,
 				75BB782D1B5B65E70055A963 /* HubViewCase */,
 				75BB78101B59DFF20055A963 /* AnimCase */,
 				75C173071B55FB96003DB9DA /* ScrollViewCase */,
@@ -583,6 +582,7 @@
 				75A7F1441B5251960095F3B7 /* 文章.md */,
 				75A7F1451B5251960095F3B7 /* 构架.md */,
 				75A7F1461B5251960095F3B7 /* 管理.md */,
+				75A0A4B31B5F3B3E00DBD2F7 /* 逆向.md */,
 				75A7F1471B5251960095F3B7 /* 经验.md */,
 			);
 			path = KnowIOS;

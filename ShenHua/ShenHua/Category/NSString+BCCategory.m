@@ -198,4 +198,33 @@
 }
 
 
+/**
+ *  把16进制RGB字符串转成UIColor务必对UIColor值为真进行判断进行判断
+ *
+ *  @param strHex 16进制RGB字符串
+ *
+ *  @return UIColor 可能为空
+ */
++(UIColor *)hexStrToColor:(NSString *)strHex
+{
+    strHex = [strHex stringByReplacingOccurrencesOfString:@"#" withString:@""];
+    
+    NSInteger len=[strHex length];
+    
+    if (len!=6)
+    {
+        return  nil;
+    }
+    
+    NSLog(@"strHex::%@",strHex);
+    
+    GLfloat  red = strtoul([[strHex substringWithRange:NSMakeRange(0, 2)] UTF8String],0,16);
+    GLfloat  green = strtoul([[strHex substringWithRange:NSMakeRange(2, 2)] UTF8String],0,16);
+    GLfloat  blue = strtoul([[strHex substringWithRange:NSMakeRange(4, 2)] UTF8String],0,16);
+    
+    NSLog(@"%f,%f,%f",red,green,blue);
+    return [UIColor colorWithRed:red/255.0 green:green/255.0 blue:blue/255.0 alpha:1.0];
+}
+
+
 @end

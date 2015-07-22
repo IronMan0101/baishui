@@ -36,4 +36,13 @@
 - (NSString *)encodeURLString;                                                //url编码
 - (NSString *)decodeURLString;                                                //url解码
 
+/**
+ *  把16进制RGB字符串转成UIColor务必对UIColor值为真进行判断进行判断
+ *
+ *  @param strHex 16进制RGB字符串
+ *
+ *  @return UIColor 可能为空
+ */
++(UIColor *)hexStrToColor:(NSString *)strHex;
+
 @end

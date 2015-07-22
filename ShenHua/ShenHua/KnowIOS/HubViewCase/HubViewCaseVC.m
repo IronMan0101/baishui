@@ -15,13 +15,55 @@
 
 @implementation HubViewCaseVC
 
+
+-(UIColor *)hexStrToColor:(NSString *)strHex
+{
+    strHex = [strHex stringByReplacingOccurrencesOfString:@"#" withString:@""];
+    
+    NSInteger len=[strHex length];
+    
+    if (len!=6)
+    {
+        return  nil;
+    }
+    
+    NSLog(@"strHex::%@",strHex);
+    
+    GLfloat  red = strtoul([[strHex substringWithRange:NSMakeRange(0, 2)] UTF8String],0,16);
+    GLfloat  green = strtoul([[strHex substringWithRange:NSMakeRange(2, 2)] UTF8String],0,16);
+    GLfloat  blue = strtoul([[strHex substringWithRange:NSMakeRange(4, 2)] UTF8String],0,16);
+    
+    NSLog(@"%f,%f,%f",red,green,blue);
+    return [UIColor colorWithRed:red/255.0 green:green/255.0 blue:blue/255.0 alpha:1.0];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    
+    //NSString *strHex;
+   // NSString
   // [self initTopTipView];
     
    // [self.topTipView setTitle:@"有很多商品可以去看看"];
+    
+    
+  //  NSString *strHex=@"#ccddee";
+    
+   // self.view.backgroundColor=[self hexStrToColor:strHex];
+    
+  // NSInteger xx=;
+//    NSLog(@"%ld",[strUrl integerValue]);
+//    NSLog(@"");
+    
+  
+
+   
+    //
+   // RGB(red, green, <#C#>)
+  
+    NSLog(@"");
+    
+    
 }
 
 
