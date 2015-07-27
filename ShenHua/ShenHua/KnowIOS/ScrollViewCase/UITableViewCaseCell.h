@@ -10,9 +10,9 @@
 
 @interface UITableViewCaseCell : UITableViewCell
 
-@property(nonatomic,strong) IBOutlet UIImageView *imgvBookBg;
-@property(nonatomic,strong) IBOutlet UILabel *lblTitle;
-@property(nonatomic,strong) IBOutlet UILabel *lblDetail;
+@property(nonatomic,weak) IBOutlet UIImageView *imgvBookBg;
+@property(nonatomic,weak) IBOutlet UILabel *lblTitle;
+@property(nonatomic,weak) IBOutlet UILabel *lblDetail;
 
 
 @end

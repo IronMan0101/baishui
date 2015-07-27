@@ -105,6 +105,7 @@
 		75AE20F51B54BF390023B7CF /* autolayout2.png in Resources */ = {isa = PBXBuildFile; fileRef = 75AE20F11B54BF390023B7CF /* autolayout2.png */; };
 		75AE20F61B54BF390023B7CF /* autolayout3.png in Resources */ = {isa = PBXBuildFile; fileRef = 75AE20F21B54BF390023B7CF /* autolayout3.png */; };
 		75AE20F71B54BF390023B7CF /* autolayout4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75AE20F31B54BF390023B7CF /* autolayout4.jpg */; };
+		75B07DDE1B65BD18007D95B6 /* 工作备忘录.md in Sources */ = {isa = PBXBuildFile; fileRef = 75B07DDD1B65BD18007D95B6 /* 工作备忘录.md */; };
 		75B08E281B56B52800CA28C1 /* UITableViewCaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B08E271B56B52800CA28C1 /* UITableViewCaseCell.m */; };
 		75B08E2C1B56B58F00CA28C1 /* UITableViewCaseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75B08E2B1B56B58F00CA28C1 /* UITableViewCaseCell.xib */; };
 		75BB78141B59E0050055A963 /* AnimCaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BB78121B59E0050055A963 /* AnimCaseVC.m */; };
@@ -345,6 +346,7 @@
 		75AE20F11B54BF390023B7CF /* autolayout2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = autolayout2.png; sourceTree = "<group>"; };
 		75AE20F21B54BF390023B7CF /* autolayout3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = autolayout3.png; sourceTree = "<group>"; };
 		75AE20F31B54BF390023B7CF /* autolayout4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = autolayout4.jpg; sourceTree = "<group>"; };
+		75B07DDD1B65BD18007D95B6 /* 工作备忘录.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "工作备忘录.md"; sourceTree = "<group>"; };
 		75B08E261B56B52800CA28C1 /* UITableViewCaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewCaseCell.h; sourceTree = "<group>"; };
 		75B08E271B56B52800CA28C1 /* UITableViewCaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableViewCaseCell.m; sourceTree = "<group>"; };
 		75B08E2B1B56B58F00CA28C1 /* UITableViewCaseCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UITableViewCaseCell.xib; sourceTree = "<group>"; };
@@ -508,6 +510,7 @@
 		751707C91B4620F6007F1AE2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				75B07DDD1B65BD18007D95B6 /* 工作备忘录.md */,
 				75D9A8901B4E966900C4CB34 /* ShenHua-Prefix.pch */,
 				751707CA1B4620F6007F1AE2 /* Info.plist */,
 				751707CB1B4620F6007F1AE2 /* main.m */,
@@ -1224,6 +1227,7 @@
 				7577AA301B53C322001A4E75 /* AutoLayoutCaseVC.m in Sources */,
 				75A7F17E1B5259850095F3B7 /* HDMSection.m in Sources */,
 				75A7F1811B5259850095F3B7 /* HDMZone.m in Sources */,
+				75B07DDE1B65BD18007D95B6 /* 工作备忘录.md in Sources */,
 				75A7F14C1B5251960095F3B7 /* TestViewController.m in Sources */,
 				75A7F1FB1B526DEE0095F3B7 /* HDMChannelDemandProductManager.m in Sources */,
 				75DCFC291B4D740D00CAA349 /* Config.m in Sources */,
